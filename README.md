@@ -4,17 +4,17 @@ Generated dashboard for [openclaw/clawsweeper](https://github.com/openclaw/claws
 
 ## Sweep Dashboard
 
-Last source update: May 1, 2026, 06:11 UTC
+Last source update: May 1, 2026, 06:12 UTC
 
 ### Fleet
 
 | Metric | Count |
 | --- | ---: |
 | Covered repositories | 3 |
-| Open review records | 7651 |
+| Open review records | 7652 |
 | Archived closed records | 15505 |
-| Fresh reviews, 7d | 7606 |
-| Proposed closes awaiting apply | 6 |
+| Fresh reviews, 7d | 7607 |
+| Proposed closes awaiting apply | 7 |
 | Work candidates awaiting promotion | 2413 |
 | Failed or stale reviews | 21 |
 
@@ -30,7 +30,7 @@ Last source update: May 1, 2026, 06:11 UTC
 
 | Repository | Open records | Archived | Fresh | Proposed closes | Work candidates | Failed/stale | Last review | Last close |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 6722 | 15479 | 6677 | 6 | 2367 | 9 | May 1, 2026, 06:11 UTC | May 1, 2026, 06:05 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 6723 | 15479 | 6678 | 7 | 2367 | 9 | May 1, 2026, 06:12 UTC | May 1, 2026, 06:05 UTC |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | 924 | 26 | 924 | 0 | 45 | 12 | Apr 29, 2026, 22:22 UTC | Apr 29, 2026, 17:17 UTC |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | 5 | 0 | 5 | 0 | 1 | 0 | May 1, 2026, 02:03 UTC | unknown |
 
@@ -84,6 +84,9 @@ Last source update: May 1, 2026, 06:11 UTC
 
 | Repository | Item | Title | Outcome | Status | Reviewed |
 | --- | --- | --- | --- | --- | --- |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75441](https://github.com/openclaw/openclaw/pull/75441) | fix(config): log observe recovery write failures | keep_open / kept_open | complete | May 1, 2026, 06:12 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75460](https://github.com/openclaw/openclaw/pull/75460) | feat(manifest): add Manifest open-source LLM router provider | close / proposed_close | complete | May 1, 2026, 06:12 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75455](https://github.com/openclaw/openclaw/pull/75455) | Fix BlueBubbles DM routing when chat identifier is present | keep_open / kept_open | complete | May 1, 2026, 06:12 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75448](https://github.com/openclaw/openclaw/pull/75448) | feat(ui): replace textarea with CodeMirror 6 JSON editor in raw config view | keep_open / kept_open | complete | May 1, 2026, 06:11 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75183](https://github.com/openclaw/openclaw/pull/75183) | fix: simplify bundled runtime dependency repair | keep_open / kept_open | complete | May 1, 2026, 06:08 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#72025](https://github.com/openclaw/openclaw/pull/72025) | fix(signal): enable inbound status reactions | keep_open / kept_open | complete | May 1, 2026, 06:08 UTC |
@@ -96,9 +99,6 @@ Last source update: May 1, 2026, 06:11 UTC
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#74377](https://github.com/openclaw/openclaw/issues/74377) | [Bug]: tools array empty at Anthropic provider despite 17 tools computed in attempt.ts (Telegram channel) | keep_open / kept_open | complete | May 1, 2026, 06:04 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75406](https://github.com/openclaw/openclaw/issues/75406) | v2026.4.29 - synchronous WASM tokenizer init blocks event loop 20-79s on first LLM call (system-prompt / ru... | keep_open / kept_open | complete | May 1, 2026, 06:04 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#73320](https://github.com/openclaw/openclaw/pull/73320) | Limit internal task completion payloads | keep_open / kept_open | complete | May 1, 2026, 06:04 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#58482](https://github.com/openclaw/openclaw/pull/58482) | fix(memory-host): add AbortSignal support to batch polling (OpenAI, Voyage, Gemini) | keep_open / kept_open | complete | May 1, 2026, 06:04 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75279](https://github.com/openclaw/openclaw/issues/75279) | [Performance]: 3-7 minute agent response latency on Windows — 66 plugins loaded, 49 disabled, 48 skills mis... | keep_open / kept_open | complete | May 1, 2026, 06:04 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75298](https://github.com/openclaw/openclaw/issues/75298) | Webhook plugin re-registers repeatedly whenever event loop saturates (dreaming, cron catchup, Control UI po... | keep_open / kept_open | complete | May 1, 2026, 06:04 UTC |
 
 </details>
 
@@ -113,29 +113,30 @@ Last source update: May 1, 2026, 06:11 UTC
 
 ## Repair Dashboard
 
-Last source update: May 1, 2026, 06:03 UTC
+Last source update: May 1, 2026, 06:11 UTC
 
 State: Failed clusters need inspection
 
 | Metric | Count | Rate |
 | --- | ---: | ---: |
-| Latest clusters reviewed | 362 | 100% |
-| Run attempts archived | 631 | audit |
-| Latest successful clusters | 332 | 91.7% |
+| Latest clusters reviewed | 363 | 100% |
+| Run attempts archived | 632 | audit |
+| Latest successful clusters | 333 | 91.7% |
 | Latest failed clusters | 7 | 1.9% |
 | Latest cancelled clusters | 2 | 0.6% |
 | Needs-human clusters | 42 | 11.6% |
 | Fix actions failed | 26 | 11.8% |
-| Fix actions blocked | 56 | 25.5% |
-| Completed close actions | 30 | 5.2% |
-| Completed merge actions | 23 | 4.0% |
-| Blocked mutation attempts | 269 | 46.2% |
-| Skipped mutation attempts | 260 | 44.7% |
+| Fix actions blocked | 56 | 25.3% |
+| Completed close actions | 30 | 5.1% |
+| Completed merge actions | 23 | 3.9% |
+| Blocked mutation attempts | 270 | 46.3% |
+| Skipped mutation attempts | 260 | 44.6% |
 
 ### Clusters Needing Inspection
 
 | Cluster | State | Reason | Report | Run |
 | --- | --- | --- | --- | --- |
+| [clawsweeper-commit-openclaw-openclaw-173f959613b3](https://github.com/openclaw/clawsweeper/blob/main/results/openclaw/clawsweeper-commit-openclaw-openclaw-173f959613b3.md) | merge_canonical blocked | job does not allow merge | [clawsweeper-commit-openclaw-openclaw-173f959613b3](https://github.com/openclaw/clawsweeper/blob/main/results/openclaw/clawsweeper-commit-openclaw-openclaw-173f959613b3.md) | [25204506377](https://github.com/openclaw/clawsweeper/actions/runs/25204506377) |
 | [clawsweeper-commit-openclaw-openclaw-464e57360262](https://github.com/openclaw/clawsweeper/blob/main/results/openclaw/clawsweeper-commit-openclaw-openclaw-464e57360262.md) | merge_canonical blocked | job does not allow merge | [clawsweeper-commit-openclaw-openclaw-464e57360262](https://github.com/openclaw/clawsweeper/blob/main/results/openclaw/clawsweeper-commit-openclaw-openclaw-464e57360262.md) | [25204309027](https://github.com/openclaw/clawsweeper/actions/runs/25204309027) |
 | [clawsweeper-commit-openclaw-openclaw-e8f9c3e6dedc](https://github.com/openclaw/clawsweeper/blob/main/results/openclaw/clawsweeper-commit-openclaw-openclaw-e8f9c3e6dedc.md) | merge_canonical blocked | job does not allow merge | [clawsweeper-commit-openclaw-openclaw-e8f9c3e6dedc](https://github.com/openclaw/clawsweeper/blob/main/results/openclaw/clawsweeper-commit-openclaw-openclaw-e8f9c3e6dedc.md) | [25204170897](https://github.com/openclaw/clawsweeper/actions/runs/25204170897) |
 | [clawsweeper-commit-openclaw-openclaw-214b3d333676](https://github.com/openclaw/clawsweeper/blob/main/results/openclaw/clawsweeper-commit-openclaw-openclaw-214b3d333676.md) | merge_canonical blocked | job does not allow merge | [clawsweeper-commit-openclaw-openclaw-214b3d333676](https://github.com/openclaw/clawsweeper/blob/main/results/openclaw/clawsweeper-commit-openclaw-openclaw-214b3d333676.md) | [25203815918](https://github.com/openclaw/clawsweeper/actions/runs/25203815918) |
@@ -165,7 +166,6 @@ State: Failed clusters need inspection
 | [clawsweeper-commit-openclaw-openclaw-581fbea1d653](https://github.com/openclaw/clawsweeper/blob/main/results/openclaw/clawsweeper-commit-openclaw-openclaw-581fbea1d653.md) | merge_canonical blocked | job does not allow merge | [clawsweeper-commit-openclaw-openclaw-581fbea1d653](https://github.com/openclaw/clawsweeper/blob/main/results/openclaw/clawsweeper-commit-openclaw-openclaw-581fbea1d653.md) | [25183870132](https://github.com/openclaw/clawsweeper/actions/runs/25183870132) |
 | [clawsweeper-commit-openclaw-openclaw-54e6e3d7daf5](https://github.com/openclaw/clawsweeper/blob/main/results/openclaw/clawsweeper-commit-openclaw-openclaw-54e6e3d7daf5.md) | merge_canonical blocked | job does not allow merge | [clawsweeper-commit-openclaw-openclaw-54e6e3d7daf5](https://github.com/openclaw/clawsweeper/blob/main/results/openclaw/clawsweeper-commit-openclaw-openclaw-54e6e3d7daf5.md) | [25183184702](https://github.com/openclaw/clawsweeper/actions/runs/25183184702) |
 | [automerge-openclaw-openclaw-74472](https://github.com/openclaw/clawsweeper/blob/main/results/openclaw/automerge-openclaw-openclaw-74472.md) | merge_canonical blocked | job does not allow merge | [automerge-openclaw-openclaw-74472](https://github.com/openclaw/clawsweeper/blob/main/results/openclaw/automerge-openclaw-openclaw-74472.md) | [25182390249](https://github.com/openclaw/clawsweeper/actions/runs/25182390249) |
-| [clawsweeper-commit-openclaw-openclaw-82ca6ecdde80](https://github.com/openclaw/clawsweeper/blob/main/results/openclaw/clawsweeper-commit-openclaw-openclaw-82ca6ecdde80.md) | execute_fix blocked | fix artifact is too broad for autonomous execution; split into narrower jobs or explicitly set CLAWSWEEPER_ALLOW_BROAD_FIX_ARTIFACTS=1 | [clawsweeper-commit-openclaw-openclaw-82ca6ecdde80](https://github.com/openclaw/clawsweeper/blob/main/results/openclaw/clawsweeper-commit-openclaw-openclaw-82ca6ecdde80.md) | [25176627885](https://github.com/openclaw/clawsweeper/actions/runs/25176627885) |
 
 ### Fix Failure Queue
 
@@ -201,7 +201,7 @@ State: Failed clusters need inspection
 
 | Reason | Latest count | Example cluster |
 | --- | ---: | --- |
-| job does not allow merge | 90 | [clawsweeper-commit-openclaw-openclaw-464e57360262](https://github.com/openclaw/clawsweeper/blob/main/results/openclaw/clawsweeper-commit-openclaw-openclaw-464e57360262.md) |
+| job does not allow merge | 91 | [clawsweeper-commit-openclaw-openclaw-173f959613b3](https://github.com/openclaw/clawsweeper/blob/main/results/openclaw/clawsweeper-commit-openclaw-openclaw-173f959613b3.md) |
 | action status is blocked | 89 | [ghcrawl-156636-autonomous-smoke](https://github.com/openclaw/clawsweeper/blob/main/results/openclaw/ghcrawl-156636-autonomous-smoke.md) |
 | close requires ClawSweeper Repair fix PR opened/pushed or merge executed first | 13 | [ghcrawl-156593-autonomous-smoke](https://github.com/openclaw/clawsweeper/blob/main/results/openclaw/ghcrawl-156593-autonomous-smoke.md) |
 | merge requires CLAWSWEEPER_REPAIR_ALLOW_MERGE=1; labeled for human review | 10 | [ghcrawl-156679-autonomous-smoke](https://github.com/openclaw/clawsweeper/blob/main/results/openclaw/ghcrawl-156679-autonomous-smoke.md) |
