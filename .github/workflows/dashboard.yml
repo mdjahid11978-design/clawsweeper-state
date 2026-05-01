@@ -3,7 +3,7 @@ name: dashboard
 on:
   workflow_dispatch:
   repository_dispatch:
-    types: [clawsweeper_dashboard_refresh]
+    types: [clawsweeper_state_refresh]
   schedule:
     - cron: "*/15 * * * *"
 
@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: clawsweeper-dashboard
+  group: clawsweeper-state-dashboard
   cancel-in-progress: true
 
 jobs:
@@ -20,14 +20,13 @@ jobs:
     steps:
       - uses: actions/checkout@v6
         with:
-          path: dashboard
+          path: state-repo
           fetch-depth: 0
 
       - uses: actions/checkout@v6
         with:
-          repository: openclaw/clawsweeper
-          path: clawsweeper
-          filter: blob:none
+          ref: state
+          path: state
           fetch-depth: 1
 
       - uses: actions/setup-node@v5
@@ -38,14 +37,14 @@ jobs:
         run: corepack enable
 
       - name: Render dashboard
-        working-directory: dashboard
+        working-directory: state-repo
         run: |
           pnpm install --frozen-lockfile
           pnpm run check
-          pnpm run render -- --source ../clawsweeper
+          pnpm run render -- --source ../state
 
       - name: Commit dashboard
-        working-directory: dashboard
+        working-directory: state-repo
         run: |
           if [ -z "$(git status --porcelain -- README.md)" ]; then
             echo "Dashboard unchanged."

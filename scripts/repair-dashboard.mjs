@@ -2,7 +2,7 @@ import path from "node:path";
 import { formatTimestamp, link, percent, rowsOrNone, tableCell, truncate } from "./markdown.mjs";
 import { jsonFiles, newestTimestamp, readJson } from "./source.mjs";
 
-const REPORT_REPO = "https://github.com/openclaw/clawsweeper";
+const REPORT_BASE = "https://github.com/openclaw/clawsweeper-state/blob/state";
 const CLOSE_ACTIONS = new Set([
   "close",
   "close_duplicate",
@@ -187,7 +187,7 @@ function clusterLink(record) {
   const owner = String(record.repo ?? "unknown/unknown").split("/")[0] || "unknown";
   const cluster = String(record.cluster_id ?? "");
   const slug = cluster.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-  return link(cluster || "unknown", `${REPORT_REPO}/blob/main/results/${owner}/${slug}.md`);
+  return link(cluster || "unknown", `${REPORT_BASE}/results/${owner}/${slug}.md`);
 }
 
 function runLink(record) {

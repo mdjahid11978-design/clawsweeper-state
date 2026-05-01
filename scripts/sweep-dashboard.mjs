@@ -14,7 +14,7 @@ import {
 
 const FRESH_DAYS = 7;
 const DAY_MS = 24 * 60 * 60 * 1000;
-const REPORT_REPO = "https://github.com/openclaw/clawsweeper";
+const REPORT_BASE = "https://github.com/openclaw/clawsweeper-state/blob/state";
 
 export function renderSweepDashboard(root) {
   const snapshots = PROFILES.map((profile) => sweepSnapshot(root, profile));
@@ -230,7 +230,7 @@ function itemLink(item) {
 }
 
 function reportLink(item) {
-  return link(item.reportPath, `${REPORT_REPO}/blob/main/${item.reportPath}`);
+  return link(item.reportPath, `${REPORT_BASE}/${item.reportPath}`);
 }
 
 function statusRow(snapshot) {

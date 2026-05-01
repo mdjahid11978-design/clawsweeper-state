@@ -5,12 +5,12 @@ import { writeText } from "./source.mjs";
 import { renderSweepDashboard } from "./sweep-dashboard.mjs";
 
 const args = parseArgs(process.argv.slice(2));
-const sourceRoot = path.resolve(args.source ?? process.env.CLAWSWEEPER_SOURCE ?? "../clawsweeper");
+const sourceRoot = path.resolve(args.source ?? process.env.CLAWSWEEPER_STATE ?? "../state");
 const output = path.resolve(args.output ?? "README.md");
 
 const body = `# ClawSweeper Dashboard
 
-Generated dashboard for [` +
+Generated from the durable state branch for [` +
   `openclaw/clawsweeper](https://github.com/openclaw/clawsweeper).
 
 ${renderSweepDashboard(sourceRoot)}
