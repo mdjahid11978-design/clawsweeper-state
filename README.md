@@ -4,60 +4,60 @@ Generated from the durable state branch for [openclaw/clawsweeper](https://githu
 
 ## Sweep Dashboard
 
-Last source update: May 2, 2026, 11:06 UTC
+Last source update: May 2, 2026, 11:29 UTC
 
 ### Fleet
 
 | Metric | Count |
 | --- | ---: |
 | Covered repositories | 3 |
-| Open review records | 6780 |
-| Archived closed records | 16927 |
-| Fresh reviews, 7d | 6691 |
-| Proposed closes awaiting apply | 0 |
-| Work candidates awaiting promotion | 2808 |
-| Failed or stale reviews | 5 |
+| Open review records | 6786 |
+| Archived closed records | 16928 |
+| Fresh reviews, 7d | 6697 |
+| Proposed closes awaiting apply | 8 |
+| Work candidates awaiting promotion | 2809 |
+| Failed or stale reviews | 6 |
 
 ### Current Runs
 
 | Repository | State | Updated | Run |
 | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Apply finished | May 2, 2026, 11:06 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25250493518) |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Review in progress | May 2, 2026, 11:04 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25250475292) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Apply finished | May 2, 2026, 11:25 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25250779887) |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Review comments checked | May 2, 2026, 11:29 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25250806156) |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | Audit finished | May 2, 2026, 06:58 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25246322756) |
 
 ### Repositories
 
 | Repository | Open records | Archived | Fresh | Proposed closes | Work candidates | Failed/stale | Last review | Last close |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 6551 | 16189 | 6462 | 0 | 2782 | 4 | May 2, 2026, 11:03 UTC | May 2, 2026, 11:06 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | 228 | 733 | 228 | 0 | 25 | 1 | May 2, 2026, 11:02 UTC | May 2, 2026, 06:32 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 6557 | 16190 | 6468 | 7 | 2783 | 6 | May 2, 2026, 11:29 UTC | May 2, 2026, 11:21 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | 228 | 733 | 228 | 1 | 25 | 0 | May 2, 2026, 11:28 UTC | May 2, 2026, 06:32 UTC |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | 1 | 5 | 1 | 0 | 1 | 0 | May 2, 2026, 06:33 UTC | May 1, 2026, 02:07 UTC |
 
 ### Work Candidates
 
 | Repository | Item | Title | Priority | Reviewed | Report |
 | --- | --- | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75924](https://github.com/openclaw/openclaw/pull/75924) | fix(loop-detection): block run-scoped consecutive cross-tool error cascades | high | May 2, 2026, 11:03 UTC | [records/openclaw-openclaw/items/75924.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/75924.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#74787](https://github.com/openclaw/openclaw/pull/74787) | [codex] Reap orphaned acpx Codex ACP processes | high | May 2, 2026, 10:58 UTC | [records/openclaw-openclaw/items/74787.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/74787.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75356](https://github.com/openclaw/openclaw/pull/75356) | fix(ui): prevent webchat sends into isolated heartbeat sessions | high | May 2, 2026, 10:55 UTC | [records/openclaw-openclaw/items/75356.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/75356.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#70634](https://github.com/openclaw/openclaw/issues/70634) | [Bug]: Human messages get starved in agent lane queues when agents communicate in loops | high | May 2, 2026, 10:55 UTC | [records/openclaw-openclaw/items/70634.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/70634.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#64773](https://github.com/openclaw/openclaw/pull/64773) | feat(sessions): add observable session state snapshot | high | May 2, 2026, 10:54 UTC | [records/openclaw-openclaw/items/64773.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/64773.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#1210](https://github.com/openclaw/openclaw/issues/1210) | Images from Discord stored as base64 in session transcripts | high | May 2, 2026, 10:54 UTC | [records/openclaw-openclaw/items/1210.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/1210.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#70971](https://github.com/openclaw/openclaw/pull/70971) | fix(cron): apply toolsAllow filter to bundled MCP/LSP tools in scheduled runs | high | May 2, 2026, 10:54 UTC | [records/openclaw-openclaw/items/70971.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/70971.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#74907](https://github.com/openclaw/openclaw/issues/74907) | Multi-tool turn replay produces orphan tool_use blocks after session compaction (v2026.4.x regression) | high | May 2, 2026, 10:54 UTC | [records/openclaw-openclaw/items/74907.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/74907.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75557](https://github.com/openclaw/openclaw/pull/75557) | fix #75452: Heartbeat per-turn model override persists after turn completes (2026.4.29) | high | May 2, 2026, 10:54 UTC | [records/openclaw-openclaw/items/75557.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/75557.md) |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#1226](https://github.com/openclaw/clawhub/issues/1226) | clawhub package publish fails with "openclaw.plugin.json required" error | high | May 2, 2026, 10:54 UTC | [records/openclaw-clawhub/items/1226.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-clawhub/items/1226.md) |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#48](https://github.com/openclaw/clawhub/issues/48) | publish: 'SKILL.md required' error despite file existing | high | May 2, 2026, 10:54 UTC | [records/openclaw-clawhub/items/48.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-clawhub/items/48.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75999](https://github.com/openclaw/openclaw/issues/75999) | [Bug]: 4.29 dispatch prep stages take ~73s of synchronous CPU work, blocking event loop | high | May 2, 2026, 10:54 UTC | [records/openclaw-openclaw/items/75999.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/75999.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#61949](https://github.com/openclaw/openclaw/issues/61949) | Model Aliases in system prompt cause LLM to substitute providers unexpectedly | high | May 2, 2026, 10:54 UTC | [records/openclaw-openclaw/items/61949.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/61949.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#61550](https://github.com/openclaw/openclaw/issues/61550) | message_sending hooks bypassed when streaming is enabled | high | May 2, 2026, 10:53 UTC | [records/openclaw-openclaw/items/61550.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/61550.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#74300](https://github.com/openclaw/openclaw/issues/74300) | Migration: version mismatch between source/target causes silent state incompatibility | high | May 2, 2026, 10:43 UTC | [records/openclaw-openclaw/items/74300.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/74300.md) |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#1199](https://github.com/openclaw/clawhub/issues/1199) | Cannot update personal settings, server error when clicking Save | high | May 2, 2026, 10:41 UTC | [records/openclaw-clawhub/items/1199.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-clawhub/items/1199.md) |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#1300](https://github.com/openclaw/clawhub/issues/1300) | Bug: transfer request, skill rename, and skill merge fail with double JSON serialization | high | May 2, 2026, 10:41 UTC | [records/openclaw-clawhub/items/1300.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-clawhub/items/1300.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#49968](https://github.com/openclaw/openclaw/pull/49968) | fix(time): unify human-day semantics for daily boundaries | high | May 2, 2026, 10:30 UTC | [records/openclaw-openclaw/items/49968.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/49968.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#58550](https://github.com/openclaw/openclaw/pull/58550) | feat(sessions): SQLite-backed two-tier session store — fixes 140%+ CPU at scale | high | May 2, 2026, 10:27 UTC | [records/openclaw-openclaw/items/58550.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/58550.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#48512](https://github.com/openclaw/openclaw/pull/48512) | fix(pi-embedded-runner): wire pending tool calls hint into idle flush guard | high | May 2, 2026, 10:26 UTC | [records/openclaw-openclaw/items/48512.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/48512.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75363](https://github.com/openclaw/openclaw/pull/75363) | fix(discord): harden Carbon parity | high | May 2, 2026, 11:25 UTC | [records/openclaw-openclaw/items/75363.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/75363.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#55507](https://github.com/openclaw/openclaw/pull/55507) | Fix Issue #55126: memorySearch outputDimensionality not passed to OpenAI embeddings API (Matryoshka support) | high | May 2, 2026, 11:15 UTC | [records/openclaw-openclaw/items/55507.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/55507.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#73859](https://github.com/openclaw/openclaw/issues/73859) | [Bug]: Built-in plugins (minimax, google, talk-voice) fail with RangeError: Maximum call stack size exceede... | high | May 2, 2026, 11:14 UTC | [records/openclaw-openclaw/items/73859.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/73859.md) |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#1971](https://github.com/openclaw/clawhub/issues/1971) | where is the download button, you removed it, you should not have | high | May 2, 2026, 11:14 UTC | [records/openclaw-clawhub/items/1971.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-clawhub/items/1971.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#74893](https://github.com/openclaw/openclaw/pull/74893) | fix(cron): warn when isolated agentTurn lacks lightContext or toolsAllow | high | May 2, 2026, 11:14 UTC | [records/openclaw-openclaw/items/74893.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/74893.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#62055](https://github.com/openclaw/openclaw/issues/62055) | Windows: CLI crashes with stack overflow / heap OOM on v2026.4.5 (large ESM module graph exceeds V8 default... | high | May 2, 2026, 11:14 UTC | [records/openclaw-openclaw/items/62055.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/62055.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#74003](https://github.com/openclaw/openclaw/issues/74003) | [Bug]: before_tool_call plugin approval fails with 'no approval route' — turnSourceChannel not passed to pl... | high | May 2, 2026, 11:14 UTC | [records/openclaw-openclaw/items/74003.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/74003.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#74448](https://github.com/openclaw/openclaw/issues/74448) | Subagent task completion event fires on session-compaction (mid-task), not on actual task end — parent rece... | high | May 2, 2026, 11:14 UTC | [records/openclaw-openclaw/items/74448.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/74448.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#55171](https://github.com/openclaw/openclaw/pull/55171) | fix(feishu): unbind stale cross-agent conversation bindings | high | May 2, 2026, 11:14 UTC | [records/openclaw-openclaw/items/55171.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/55171.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#74286](https://github.com/openclaw/openclaw/issues/74286) | Bug: sub-agent announce completion causes parent session to generate out-of-context replies | high | May 2, 2026, 11:12 UTC | [records/openclaw-openclaw/items/74286.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/74286.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#62625](https://github.com/openclaw/openclaw/issues/62625) | Memory/sessions: missing startup catch-up scan causes session indexing to silently fall behind across gatew... | high | May 2, 2026, 11:12 UTC | [records/openclaw-openclaw/items/62625.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/62625.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#62809](https://github.com/openclaw/openclaw/issues/62809) | Recurring isolated cron jobs have unstable first-turn OpenAI prompt-cache hits across runs | high | May 2, 2026, 11:12 UTC | [records/openclaw-openclaw/items/62809.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/62809.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#49332](https://github.com/openclaw/openclaw/pull/49332) | fix(ui): prevent duplicate chat messages from retransmitted final events | high | May 2, 2026, 11:12 UTC | [records/openclaw-openclaw/items/49332.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/49332.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75894](https://github.com/openclaw/openclaw/issues/75894) | [Bug]: session-write-lock timeout (10s) is shorter than legitimate lock holds (40-55s) on v2026.4.29 prep s... | high | May 2, 2026, 11:11 UTC | [records/openclaw-openclaw/items/75894.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/75894.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#74614](https://github.com/openclaw/openclaw/issues/74614) | [Bug]: chat final event can be suppressed when lifecycle registry shift misses after streamed output | high | May 2, 2026, 11:11 UTC | [records/openclaw-openclaw/items/74614.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/74614.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#66071](https://github.com/openclaw/openclaw/pull/66071) | Fix commentary leaks in OpenResponses HTTP streaming | high | May 2, 2026, 11:11 UTC | [records/openclaw-openclaw/items/66071.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/66071.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#53762](https://github.com/openclaw/openclaw/pull/53762) | fix(telegram): flush buffered final answer when reasoning delivery is skipped [AI-assisted] | high | May 2, 2026, 11:11 UTC | [records/openclaw-openclaw/items/53762.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/53762.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#62761](https://github.com/openclaw/openclaw/issues/62761) | iMessage channel replays old messages after update restart — no cursor persistence | high | May 2, 2026, 11:11 UTC | [records/openclaw-openclaw/items/62761.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/62761.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#74370](https://github.com/openclaw/openclaw/issues/74370) | [Bug] 消息在 memory flush + compaction 后被重复投递 | high | May 2, 2026, 11:11 UTC | [records/openclaw-openclaw/items/74370.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/74370.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#43447](https://github.com/openclaw/openclaw/issues/43447) | Kimi/Moonshot 'Rate Limit' error masks insufficient funds, causes UI lockout | high | May 2, 2026, 11:11 UTC | [records/openclaw-openclaw/items/43447.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/43447.md) |
 
 ### Recently Closed
 
@@ -84,21 +84,21 @@ Last source update: May 2, 2026, 11:06 UTC
 
 | Repository | Item | Title | Outcome | Status | Reviewed |
 | --- | --- | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75924](https://github.com/openclaw/openclaw/pull/75924) | fix(loop-detection): block run-scoped consecutive cross-tool error cascades | keep_open / kept_open | complete | May 2, 2026, 11:03 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75995](https://github.com/openclaw/openclaw/pull/75995) | [WIP] test: add session linkage verification for Slack roomish channels with replyToMode=all | keep_open / kept_open | complete | May 2, 2026, 11:03 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#1345](https://github.com/openclaw/clawhub/issues/1345) | Request to update skill summary for "auto-create-ai-team" | keep_open / kept_open | failed | May 2, 2026, 11:02 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#68982](https://github.com/openclaw/openclaw/pull/68982) | fix: stream reasoning in live chat | keep_open / kept_open | complete | May 2, 2026, 11:00 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#76043](https://github.com/openclaw/openclaw/issues/76043) | Active-memory embedded run startup overhead: 44-51s before LLM call, 100% timeout rate | close / skipped_changed_since_review | complete | May 2, 2026, 11:00 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#76042](https://github.com/openclaw/openclaw/issues/76042) | [Bug]: Upgrade or Clean install is VERY long or broken. Right now, ater 2 hours is not finished. | keep_open / kept_open | complete | May 2, 2026, 10:59 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#74787](https://github.com/openclaw/openclaw/pull/74787) | [codex] Reap orphaned acpx Codex ACP processes | keep_open / kept_open | complete | May 2, 2026, 10:58 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#1193](https://github.com/openclaw/clawhub/issues/1193) | clawhub login succeeds but whoami returns unknown and publish fails with "Personal publisher not found" | keep_open / kept_open | complete | May 2, 2026, 10:55 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#57608](https://github.com/openclaw/openclaw/pull/57608) | fix(channels): googlechat auth logging + Zalo mediaMaxBytes default | keep_open / kept_open | complete | May 2, 2026, 10:55 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75356](https://github.com/openclaw/openclaw/pull/75356) | fix(ui): prevent webchat sends into isolated heartbeat sessions | keep_open / kept_open | complete | May 2, 2026, 10:55 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#69618](https://github.com/openclaw/openclaw/pull/69618) | feat(messages): add responseFooter and enrich /usage full | keep_open / kept_open | complete | May 2, 2026, 10:55 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75880](https://github.com/openclaw/openclaw/pull/75880) | feat(browser): add --headed flag to browser start for runtime headed handoff | keep_open / kept_open | complete | May 2, 2026, 10:55 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#62801](https://github.com/openclaw/openclaw/pull/62801) | feat(plugins): add native detached subagent spawn | keep_open / kept_open | complete | May 2, 2026, 10:55 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#1197](https://github.com/openclaw/clawhub/issues/1197) | publish fails: "multiple paginated queries" Convex error on first publish | keep_open / kept_open | complete | May 2, 2026, 10:55 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#70634](https://github.com/openclaw/openclaw/issues/70634) | [Bug]: Human messages get starved in agent lane queues when agents communicate in loops | keep_open / kept_open | complete | May 2, 2026, 10:55 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#76051](https://github.com/openclaw/openclaw/pull/76051) | fix(control-ui): bound default sessions query | keep_open / kept_open | complete | May 2, 2026, 11:29 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#76049](https://github.com/openclaw/openclaw/pull/76049) | Fix Telegram plugin command topic session files | keep_open / kept_open | complete | May 2, 2026, 11:29 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#76050](https://github.com/openclaw/openclaw/issues/76050) | Bug: Control UI sessions list defaults can trigger expensive full-history scans | keep_open / kept_open | complete | May 2, 2026, 11:29 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#1946](https://github.com/openclaw/clawhub/issues/1946) | Edit Version Changelogs | keep_open / kept_open | complete | May 2, 2026, 11:28 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#1900](https://github.com/openclaw/clawhub/issues/1900) | accidently delete my account， cant create new one use github | keep_open / kept_open | complete | May 2, 2026, 11:27 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#74438](https://github.com/openclaw/openclaw/pull/74438) | fix: honor the configured default agent in models status and doctor | keep_open / kept_open | complete | May 2, 2026, 11:27 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#76047](https://github.com/openclaw/openclaw/issues/76047) | Two issues causing persistent event loop saturation: temp file leak + node.list probe timeout | keep_open / kept_open | complete | May 2, 2026, 11:25 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75363](https://github.com/openclaw/openclaw/pull/75363) | fix(discord): harden Carbon parity | keep_open / kept_open | complete | May 2, 2026, 11:25 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#60961](https://github.com/openclaw/openclaw/issues/60961) | [Bug]: OpenShell mirror mode write tool fails with "tar: <dir>: Cannot open: File exists" when writing file... | keep_open / kept_open | failed | May 2, 2026, 11:22 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75727](https://github.com/openclaw/openclaw/pull/75727) | fix(gateway): render codex inline media once | keep_open / kept_open | complete | May 2, 2026, 11:19 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75845](https://github.com/openclaw/openclaw/pull/75845) | Fix Telegram plugin command topic session files | keep_open / kept_open | complete | May 2, 2026, 11:17 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#71817](https://github.com/openclaw/openclaw/pull/71817) | fix(telegram,feishu): enable Claude CLI reasoning via reasoningDefault config | keep_open / kept_open | complete | May 2, 2026, 11:15 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#1858](https://github.com/openclaw/clawhub/pull/1858) | fix(ui): resolve relative skill README links | close / proposed_close | complete | May 2, 2026, 11:15 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#1831](https://github.com/openclaw/clawhub/issues/1831) | Application to Remove adb-assistant & testcase-template | keep_open / kept_open | complete | May 2, 2026, 11:15 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#1840](https://github.com/openclaw/clawhub/pull/1840) | fix: support org-owned skill publishes via API | keep_open / kept_open | complete | May 2, 2026, 11:15 UTC |
 
 </details>
 
