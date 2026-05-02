@@ -4,33 +4,33 @@ Generated from the durable state branch for [openclaw/clawsweeper](https://githu
 
 ## Sweep Dashboard
 
-Last source update: May 2, 2026, 12:33 UTC
+Last source update: May 2, 2026, 12:35 UTC
 
 ### Fleet
 
 | Metric | Count |
 | --- | ---: |
 | Covered repositories | 3 |
-| Open review records | 6770 |
+| Open review records | 6771 |
 | Archived closed records | 16965 |
-| Fresh reviews, 7d | 6681 |
+| Fresh reviews, 7d | 6682 |
 | Proposed closes awaiting apply | 1 |
-| Work candidates awaiting promotion | 2806 |
+| Work candidates awaiting promotion | 2807 |
 | Failed or stale reviews | 8 |
 
 ### Current Runs
 
 | Repository | State | Updated | Run |
 | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Review publish complete | May 2, 2026, 12:33 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25251704251) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Apply in progress | May 2, 2026, 12:35 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25252013615) |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | Hot intake publish complete | May 2, 2026, 11:53 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25251255398) |
-| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | Audit finished | May 2, 2026, 06:58 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25246322756) |
+| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | Audit finished | May 2, 2026, 12:35 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25252021874) |
 
 ### Repositories
 
 | Repository | Open records | Archived | Fresh | Proposed closes | Work candidates | Failed/stale | Last review | Last close |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 6542 | 16226 | 6453 | 1 | 2780 | 8 | May 2, 2026, 12:32 UTC | May 2, 2026, 12:31 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 6543 | 16226 | 6454 | 1 | 2781 | 8 | May 2, 2026, 12:35 UTC | May 2, 2026, 12:31 UTC |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | 227 | 734 | 227 | 0 | 25 | 0 | May 2, 2026, 11:28 UTC | May 2, 2026, 11:40 UTC |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | 1 | 5 | 1 | 0 | 1 | 0 | May 2, 2026, 06:33 UTC | May 1, 2026, 02:07 UTC |
 
@@ -84,6 +84,8 @@ Last source update: May 2, 2026, 12:33 UTC
 
 | Repository | Item | Title | Outcome | Status | Reviewed |
 | --- | --- | --- | --- | --- | --- |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#76056](https://github.com/openclaw/openclaw/pull/76056) | fix(agents): keep state.messages intact across z.ai-style provider turns in embedded runs | keep_open / kept_open | complete | May 2, 2026, 12:35 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#76004](https://github.com/openclaw/openclaw/pull/76004) | perf(agents/pi-embedded): memoize resolvePreparedExtraParams per config | keep_open / kept_open | complete | May 2, 2026, 12:35 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#59572](https://github.com/openclaw/openclaw/pull/59572) | feat: add context visualization in tui | keep_open / kept_open | failed | May 2, 2026, 12:32 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#45158](https://github.com/openclaw/openclaw/issues/45158) | [Bug]: 飞书多 Agent 路由问题 - 所有消息都路由到同一个 agent | keep_open / kept_open | failed | May 2, 2026, 12:32 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#76072](https://github.com/openclaw/openclaw/pull/76072) | fix(control-ui): contain viewport in iOS PWA standalone mode | keep_open / kept_open | complete | May 2, 2026, 12:32 UTC |
@@ -97,8 +99,6 @@ Last source update: May 2, 2026, 12:33 UTC
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#49109](https://github.com/openclaw/openclaw/pull/49109) | fix(cli): quiet cron status checks and retry transient gateway transport | keep_open / kept_open | complete | May 2, 2026, 12:25 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#50191](https://github.com/openclaw/openclaw/pull/50191) | Improve native command overflow warnings to mention nativeSkills config | keep_open / kept_open | complete | May 2, 2026, 12:25 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#59932](https://github.com/openclaw/openclaw/pull/59932) | fix: protect active subagent sessions from maintenance pruning | keep_open / kept_open | complete | May 2, 2026, 12:25 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#74700](https://github.com/openclaw/openclaw/pull/74700) | fix: clean up completed ACP run sessions | keep_open / kept_open | complete | May 2, 2026, 12:25 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#60864](https://github.com/openclaw/openclaw/issues/60864) | RFC: Task Continuation Across Gateway Restarts (Checkpoint + Auto-Resume) | keep_open / kept_open | complete | May 2, 2026, 12:25 UTC |
 
 </details>
 
@@ -108,7 +108,7 @@ Last source update: May 2, 2026, 12:33 UTC
 | --- | --- | --- | ---: | ---: | ---: | --- |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | open archived records | May 2, 2026, 12:32 UTC | 0 | 1 | 0 | yes |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | clean | May 2, 2026, 12:32 UTC | 0 | 0 | 0 | yes |
-| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | clean | May 2, 2026, 06:58 UTC | 0 | 0 | 0 | yes |
+| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | clean | May 2, 2026, 12:35 UTC | 0 | 0 | 0 | yes |
 
 
 ## Repair Dashboard
