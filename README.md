@@ -4,34 +4,34 @@ Generated from the durable state branch for [openclaw/clawsweeper](https://githu
 
 ## Sweep Dashboard
 
-Last source update: May 5, 2026, 22:33 UTC
+Last source update: May 5, 2026, 23:05 UTC
 
 ### Fleet
 
 | Metric | Count |
 | --- | ---: |
 | Covered repositories | 3 |
-| Open review records | 7234 |
-| Archived closed records | 18376 |
-| Fresh reviews, 7d | 7132 |
-| Proposed closes awaiting apply | 0 |
-| Work candidates awaiting promotion | 2929 |
-| Failed or stale reviews | 68 |
+| Open review records | 7237 |
+| Archived closed records | 18381 |
+| Fresh reviews, 7d | 7135 |
+| Proposed closes awaiting apply | 1 |
+| Work candidates awaiting promotion | 2926 |
+| Failed or stale reviews | 69 |
 
 ### Current Runs
 
 | Repository | State | Updated | Run |
 | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Hot intake publish complete | May 5, 2026, 22:33 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25405757895) |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Hot intake publish complete | May 5, 2026, 22:31 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25405707104) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Hot intake publish complete | May 5, 2026, 23:02 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25406823192) |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Review in progress | May 5, 2026, 23:05 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25407080354) |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | Audit finished | May 5, 2026, 18:49 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25395683662) |
 
 ### Repositories
 
 | Repository | Open records | Archived | Fresh | Proposed closes | Work candidates | Failed/stale | Last review | Last close |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 6981 | 17616 | 6879 | 0 | 2903 | 67 | May 5, 2026, 22:32 UTC | May 5, 2026, 22:06 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | 252 | 755 | 252 | 0 | 25 | 1 | May 5, 2026, 22:30 UTC | May 5, 2026, 22:28 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 6984 | 17621 | 6882 | 1 | 2902 | 67 | May 5, 2026, 23:03 UTC | May 5, 2026, 23:03 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | 252 | 755 | 252 | 0 | 23 | 2 | May 5, 2026, 23:02 UTC | May 5, 2026, 22:28 UTC |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | 1 | 5 | 1 | 0 | 1 | 0 | May 2, 2026, 06:33 UTC | May 1, 2026, 02:07 UTC |
 
 ### Work Candidates
@@ -84,21 +84,21 @@ Last source update: May 5, 2026, 22:33 UTC
 
 | Repository | Item | Title | Outcome | Status | Reviewed |
 | --- | --- | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#74057](https://github.com/openclaw/openclaw/pull/74057) | [AI-assisted] fix(providers): use llama.cpp runtime context cap | keep_open / kept_open | complete | May 5, 2026, 22:32 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78041](https://github.com/openclaw/openclaw/issues/78041) | [Bug]: Cold-path auth resolution: ~4s on every cold dispatch (warm 2-4ms) | keep_open / kept_open | complete | May 5, 2026, 22:32 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78103](https://github.com/openclaw/openclaw/pull/78103) | Fix plugin webhooks for Slack reply delivery | keep_open / kept_open | complete | May 5, 2026, 22:32 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77999](https://github.com/openclaw/openclaw/pull/77999) | fix(memory): reopen closed sqlite handles | keep_open / kept_open | complete | May 5, 2026, 22:31 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77003](https://github.com/openclaw/openclaw/pull/77003) | Update openclaw-scheduled-live-checks.yml | keep_open / kept_open | complete | May 5, 2026, 22:31 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#1996](https://github.com/openclaw/clawhub/issues/1996) | False Positive — suspicious.llm_suspicious flag on NextSteps and ClawShorts | keep_open / kept_open | complete | May 5, 2026, 22:30 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78076](https://github.com/openclaw/openclaw/pull/78076) | feat(mistral): add mistral-medium-3.5 model | keep_open / kept_open | complete | May 5, 2026, 22:28 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#26](https://github.com/openclaw/clawhub/issues/26) | Search doesn't work in the latest update. | keep_open / kept_open | complete | May 5, 2026, 22:27 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78102](https://github.com/openclaw/openclaw/pull/78102) | fix: reset telegram sticky fallback after recovery | keep_open / kept_open | complete | May 5, 2026, 22:27 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#12855](https://github.com/openclaw/openclaw/issues/12855) | [Feature]: Built-in auto-update with configurable schedule, confirmation, and post-update notification | keep_open / kept_open | complete | May 5, 2026, 22:26 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78086](https://github.com/openclaw/openclaw/pull/78086) | feat(agents): implement state-aware failover and lane suspension | keep_open / kept_open | complete | May 5, 2026, 22:26 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78100](https://github.com/openclaw/openclaw/issues/78100) | Gateway sync-FS plugin discovery blocks event loop on every channels.status / channel restart | keep_open / kept_open | complete | May 5, 2026, 22:26 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#74023](https://github.com/openclaw/openclaw/pull/74023) | [AI-assisted] fix(tasks): prune stale cron session registry entries | keep_open / kept_open | complete | May 5, 2026, 22:25 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78101](https://github.com/openclaw/openclaw/pull/78101) | fix(plugins): coalesce loadPluginRegistrySnapshotWithMetadata within 2s | keep_open / kept_open | complete | May 5, 2026, 22:25 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2003](https://github.com/openclaw/clawhub/issues/2003) | Static analyzer over-fires `install_untrusted_source` on docker-compose-based skills | keep_open / kept_open | complete | May 5, 2026, 22:24 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77181](https://github.com/openclaw/openclaw/pull/77181) | fix(update): avoid lint-blocked dev installs | keep_open / kept_open | complete | May 5, 2026, 23:03 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78105](https://github.com/openclaw/openclaw/pull/78105) | fix(plugins): make empty-allowlist actionable for new users | keep_open / kept_open | complete | May 5, 2026, 23:02 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#171](https://github.com/openclaw/clawhub/issues/171) | Managed browser time out issue | keep_open / kept_open | complete | May 5, 2026, 23:02 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78116](https://github.com/openclaw/openclaw/issues/78116) | Community plugin: Thalamus, packet-handoff layer for multi-agent crews (review request) | close / proposed_close | complete | May 5, 2026, 23:01 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2032](https://github.com/openclaw/clawhub/issues/2032) | skill safe-encryption-skill: Spec Prohibits File Output But CLI Tool's Standard Interface Is File Output | keep_open / kept_open | complete | May 5, 2026, 23:01 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78112](https://github.com/openclaw/openclaw/pull/78112) | [AI-assisted] fix(doctor): tolerate malformed crontab output | keep_open / kept_open | complete | May 5, 2026, 23:00 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78076](https://github.com/openclaw/openclaw/pull/78076) | feat(mistral): add mistral-medium-3.5 model | keep_open / kept_open | complete | May 5, 2026, 23:00 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#1132](https://github.com/openclaw/clawhub/pull/1132) | feat: add skill category system for security tool moderation context | keep_open / kept_open | complete | May 5, 2026, 22:56 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#11487](https://github.com/openclaw/openclaw/issues/11487) | Add optional `name`/`label` field to group config entries | keep_open / kept_open | complete | May 5, 2026, 22:56 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78111](https://github.com/openclaw/openclaw/pull/78111) | fix(agents): non-default agents use sibling workspace dirs, not nested (#78093) | keep_open / kept_open | complete | May 5, 2026, 22:55 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#72957](https://github.com/openclaw/openclaw/pull/72957) | UI: harden chat scroll interrupts | keep_open / kept_open | complete | May 5, 2026, 22:55 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2024](https://github.com/openclaw/clawhub/issues/2024) | Publisher "@4tk" not found when publishing package as 4tk-ai | keep_open / kept_open | failed | May 5, 2026, 22:54 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#1287](https://github.com/openclaw/clawhub/pull/1287) | feat: overhaul publish-plugin page, fix package changelog generation, add tests | keep_open / kept_open | complete | May 5, 2026, 22:51 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77205](https://github.com/openclaw/openclaw/pull/77205) | [codex] add durable message lifecycle delivery | keep_open / kept_open | complete | May 5, 2026, 22:49 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78109](https://github.com/openclaw/openclaw/pull/78109) | fix(mcp): honour per-server requestTimeoutMs for bundle-MCP callTool (#78092) | keep_open / kept_open | complete | May 5, 2026, 22:49 UTC |
 
 </details>
 
@@ -113,20 +113,20 @@ Last source update: May 5, 2026, 22:33 UTC
 
 ## Repair Dashboard
 
-Last source update: May 5, 2026, 06:07 UTC
+Last source update: May 5, 2026, 22:38 UTC
 
 State: Failed clusters need inspection
 
 | Metric | Count | Rate |
 | --- | ---: | ---: |
-| Latest clusters reviewed | 424 | 100% |
-| Run attempts archived | 816 | audit |
-| Latest successful clusters | 389 | 91.7% |
-| Latest failed clusters | 7 | 1.7% |
+| Latest clusters reviewed | 425 | 100% |
+| Run attempts archived | 817 | audit |
+| Latest successful clusters | 390 | 91.8% |
+| Latest failed clusters | 7 | 1.6% |
 | Latest cancelled clusters | 4 | 0.9% |
 | Needs-human clusters | 42 | 9.9% |
 | Fix actions failed | 38 | 12.6% |
-| Fix actions blocked | 71 | 23.6% |
+| Fix actions blocked | 71 | 23.5% |
 | Completed close actions | 30 | 4.4% |
 | Completed merge actions | 23 | 3.4% |
 | Blocked mutation attempts | 357 | 52.9% |
