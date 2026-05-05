@@ -4,41 +4,41 @@ Generated from the durable state branch for [openclaw/clawsweeper](https://githu
 
 ## Sweep Dashboard
 
-Last source update: May 5, 2026, 07:03 UTC
+Last source update: May 5, 2026, 07:05 UTC
 
 ### Fleet
 
 | Metric | Count |
 | --- | ---: |
 | Covered repositories | 3 |
-| Open review records | 7053 |
+| Open review records | 7054 |
 | Archived closed records | 18250 |
-| Fresh reviews, 7d | 6961 |
+| Fresh reviews, 7d | 6962 |
 | Proposed closes awaiting apply | 0 |
-| Work candidates awaiting promotion | 2927 |
+| Work candidates awaiting promotion | 2929 |
 | Failed or stale reviews | 60 |
 
 ### Current Runs
 
 | Repository | State | Updated | Run |
 | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Hot intake publish complete | May 5, 2026, 07:03 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25362326441) |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Audit finished | May 5, 2026, 07:03 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25362521625) |
-| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | Audit finished | May 5, 2026, 01:06 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25352304079) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Review publish complete | May 5, 2026, 07:04 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25362388394) |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Review publish complete | May 5, 2026, 07:00 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25362272758) |
+| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | Audit finished | May 5, 2026, 07:05 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25362617440) |
 
 ### Repositories
 
 | Repository | Open records | Archived | Fresh | Proposed closes | Work candidates | Failed/stale | Last review | Last close |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 6807 | 17491 | 6715 | 0 | 2901 | 60 | May 5, 2026, 07:02 UTC | May 5, 2026, 07:02 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | 245 | 754 | 245 | 0 | 25 | 0 | May 5, 2026, 07:01 UTC | May 5, 2026, 05:31 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 6808 | 17491 | 6716 | 0 | 2903 | 60 | May 5, 2026, 07:05 UTC | May 5, 2026, 07:03 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | 245 | 754 | 245 | 0 | 25 | 0 | May 5, 2026, 06:59 UTC | May 5, 2026, 05:31 UTC |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | 1 | 5 | 1 | 0 | 1 | 0 | May 2, 2026, 06:33 UTC | May 1, 2026, 02:07 UTC |
 
 ### Work Candidates
 
 | Repository | Item | Title | Priority | Reviewed | Report |
 | --- | --- | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77727](https://github.com/openclaw/openclaw/issues/77727) | Telegram: Final assistant reply appears above tool call progress messages (streaming mode) | high | May 5, 2026, 07:02 UTC | [records/openclaw-openclaw/items/77727.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/77727.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77727](https://github.com/openclaw/openclaw/issues/77727) | Telegram: Final assistant reply appears above tool call progress messages (streaming mode) | high | May 5, 2026, 06:58 UTC | [records/openclaw-openclaw/items/77727.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/77727.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#43469](https://github.com/openclaw/openclaw/pull/43469) | security: scan markdown skill definitions for injection threats | high | May 5, 2026, 06:56 UTC | [records/openclaw-openclaw/items/43469.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/43469.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77720](https://github.com/openclaw/openclaw/issues/77720) | Bug: Subagent child sessions receive no termination signal when parent dies mid-run | high | May 5, 2026, 06:42 UTC | [records/openclaw-openclaw/items/77720.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/77720.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#9637](https://github.com/openclaw/openclaw/issues/9637) | Add accessibility config option to disable emojis and unicode symbols in TUI | high | May 5, 2026, 06:40 UTC | [records/openclaw-openclaw/items/9637.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/9637.md) |
@@ -84,14 +84,11 @@ Last source update: May 5, 2026, 07:03 UTC
 
 | Repository | Item | Title | Outcome | Status | Reviewed |
 | --- | --- | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#76350](https://github.com/openclaw/openclaw/pull/76350) | perf(plugins): cache fs.existsSync probes during plugin scan | keep_open / kept_open | complete | May 5, 2026, 07:02 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77523](https://github.com/openclaw/openclaw/pull/77523) | fix(providers/minimax): add refreshOAuth to minimax-portal so tokens auto-refresh | keep_open / kept_open | complete | May 5, 2026, 07:02 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77727](https://github.com/openclaw/openclaw/issues/77727) | Telegram: Final assistant reply appears above tool call progress messages (streaming mode) | keep_open / kept_open | complete | May 5, 2026, 07:02 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77205](https://github.com/openclaw/openclaw/pull/77205) | [codex] add durable message lifecycle delivery | keep_open / kept_open | complete | May 5, 2026, 07:02 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#1992](https://github.com/openclaw/clawhub/issues/1992) | Couldn't go live | keep_open / kept_open | complete | May 5, 2026, 07:01 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77187](https://github.com/openclaw/openclaw/pull/77187) | Fix/sessions list resolver cache | keep_open / kept_open | complete | May 5, 2026, 06:59 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77580](https://github.com/openclaw/openclaw/pull/77580) | feat(cli): list pending exec approvals (#9987) | keep_open / kept_open | complete | May 5, 2026, 06:59 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75181](https://github.com/openclaw/openclaw/pull/75181) | test(plugins): cover Link agent wallet bundle shape | keep_open / kept_open | complete | May 5, 2026, 06:58 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77462](https://github.com/openclaw/openclaw/pull/77462) | fix(gateway/config): respond with persisted disk config in config.set/patch/apply (#77455) | keep_open / kept_open | complete | May 5, 2026, 07:05 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#8913](https://github.com/openclaw/openclaw/issues/8913) | [Feature] Configurable thinking/reasoning block format per channel | keep_open / kept_open | complete | May 5, 2026, 07:03 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77728](https://github.com/openclaw/openclaw/pull/77728) | docs(changelog): relocate #77046 and #77280 entries from 2026.5.3 to Unreleased | keep_open / kept_open | complete | May 5, 2026, 07:00 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#951](https://github.com/openclaw/clawhub/issues/951) | [BUG] onlycrabs.ai (SOUL.md registry) not connected - just a parking page | keep_open / kept_open | complete | May 5, 2026, 06:59 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77727](https://github.com/openclaw/openclaw/issues/77727) | Telegram: Final assistant reply appears above tool call progress messages (streaming mode) | keep_open / kept_open | complete | May 5, 2026, 06:58 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77427](https://github.com/openclaw/openclaw/pull/77427) | fix: preserve gateway install env sources | keep_open / kept_open | complete | May 5, 2026, 06:57 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77361](https://github.com/openclaw/openclaw/pull/77361) | fix(barnacle): resync candidate labels on ready_for_review, remove stale labels | keep_open / kept_open | complete | May 5, 2026, 06:57 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77708](https://github.com/openclaw/openclaw/pull/77708) | [codex] Add realtime agent context for Voice Call | keep_open / kept_open | complete | May 5, 2026, 06:57 UTC |
@@ -99,6 +96,9 @@ Last source update: May 5, 2026, 07:03 UTC
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#1994](https://github.com/openclaw/clawhub/issues/1994) | Trying to get Plugin verified | keep_open / kept_open | complete | May 5, 2026, 06:56 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#43469](https://github.com/openclaw/openclaw/pull/43469) | security: scan markdown skill definitions for injection threats | keep_open / kept_open | complete | May 5, 2026, 06:56 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77718](https://github.com/openclaw/openclaw/issues/77718) | [Bug] Null agent workspace field causes crash loop — auto-restore does not repair missing required fields | keep_open / kept_open | complete | May 5, 2026, 06:55 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#63634](https://github.com/openclaw/openclaw/pull/63634) | fix: accept valid MCP tool schemas without strict inputSchema.type check | keep_open / kept_open | complete | May 5, 2026, 06:54 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#676](https://github.com/openclaw/clawhub/issues/676) | Import failed during publish: GitHub API rate limit exceeded — please try again in a few minutes. Check ski... | keep_open / kept_open | complete | May 5, 2026, 06:54 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77205](https://github.com/openclaw/openclaw/pull/77205) | [codex] add durable message lifecycle delivery | keep_open / kept_open | complete | May 5, 2026, 06:52 UTC |
 
 </details>
 
@@ -106,9 +106,9 @@ Last source update: May 5, 2026, 07:03 UTC
 
 | Repository | Status | Last audit | Missing eligible | Stale records | Protected proposed | Scan complete |
 | --- | --- | --- | ---: | ---: | ---: | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | clean | May 5, 2026, 01:03 UTC | 0 | 0 | 0 | yes |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | clean | May 5, 2026, 07:03 UTC | 0 | 0 | 0 | yes |
-| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | missing records | May 5, 2026, 01:06 UTC | 3 | 0 | 0 | yes |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | clean | May 5, 2026, 07:04 UTC | 0 | 0 | 0 | yes |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | clean | May 5, 2026, 01:03 UTC | 0 | 0 | 0 | yes |
+| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | missing records | May 5, 2026, 07:05 UTC | 1 | 0 | 0 | yes |
 
 
 ## Repair Dashboard
