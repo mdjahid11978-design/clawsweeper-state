@@ -4,17 +4,17 @@ Generated from the durable state branch for [openclaw/clawsweeper](https://githu
 
 ## Sweep Dashboard
 
-Last source update: May 5, 2026, 12:43 UTC
+Last source update: May 5, 2026, 12:49 UTC
 
 ### Fleet
 
 | Metric | Count |
 | --- | ---: |
 | Covered repositories | 3 |
-| Open review records | 7104 |
+| Open review records | 7105 |
 | Archived closed records | 18295 |
-| Fresh reviews, 7d | 7011 |
-| Proposed closes awaiting apply | 0 |
+| Fresh reviews, 7d | 7012 |
+| Proposed closes awaiting apply | 1 |
 | Work candidates awaiting promotion | 2916 |
 | Failed or stale reviews | 65 |
 
@@ -22,16 +22,16 @@ Last source update: May 5, 2026, 12:43 UTC
 
 | Repository | State | Updated | Run |
 | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Audit finished | May 5, 2026, 12:43 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25376914581) |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Hot intake publish complete | May 5, 2026, 12:43 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25376799424) |
-| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | Audit finished | May 5, 2026, 07:05 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25362617440) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Planning review | May 5, 2026, 12:49 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25377274737) |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Review publish complete | May 5, 2026, 12:47 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25376933048) |
+| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | Audit finished | May 5, 2026, 12:48 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25377248356) |
 
 ### Repositories
 
 | Repository | Open records | Archived | Fresh | Proposed closes | Work candidates | Failed/stale | Last review | Last close |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 6855 | 17536 | 6762 | 0 | 2890 | 65 | May 5, 2026, 12:42 UTC | May 5, 2026, 12:42 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | 248 | 754 | 248 | 0 | 25 | 0 | May 5, 2026, 12:42 UTC | May 5, 2026, 05:31 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 6856 | 17536 | 6763 | 1 | 2890 | 65 | May 5, 2026, 12:47 UTC | May 5, 2026, 12:42 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | 248 | 754 | 248 | 0 | 25 | 0 | May 5, 2026, 12:46 UTC | May 5, 2026, 05:31 UTC |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | 1 | 5 | 1 | 0 | 1 | 0 | May 2, 2026, 06:33 UTC | May 1, 2026, 02:07 UTC |
 
 ### Work Candidates
@@ -84,8 +84,10 @@ Last source update: May 5, 2026, 12:43 UTC
 
 | Repository | Item | Title | Outcome | Status | Reviewed |
 | --- | --- | --- | --- | --- | --- |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77677](https://github.com/openclaw/openclaw/pull/77677) | fix(agents): harden OpenAI Responses transport | keep_open / kept_open | complete | May 5, 2026, 12:47 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77836](https://github.com/openclaw/openclaw/issues/77836) | throw | close / proposed_close | complete | May 5, 2026, 12:47 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#900](https://github.com/openclaw/clawhub/issues/900) | deleted account → can’t re-login / button stays live | keep_open / kept_open | complete | May 5, 2026, 12:46 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77832](https://github.com/openclaw/openclaw/pull/77832) | fix(ui): show inherited thinking label in chat dropdown | keep_open / kept_open | complete | May 5, 2026, 12:42 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2002](https://github.com/openclaw/clawhub/issues/2002) | skill publish --tags latest does not move displayed latest version to prerelease publish | keep_open / kept_open | complete | May 5, 2026, 12:42 UTC |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#600](https://github.com/openclaw/clawhub/issues/600) | Security incident request: hide leaked version tencent-doc-update-watch@0.1.0 | keep_open / kept_open | complete | May 5, 2026, 12:35 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77790](https://github.com/openclaw/openclaw/pull/77790) | fix(agents): include configured primary as fallback when session pin collapses chain | keep_open / kept_open | complete | May 5, 2026, 12:35 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#76984](https://github.com/openclaw/openclaw/pull/76984) | fix: SecretRef hydration regressions in skill/web-search/embedding paths + codex 400K context window | keep_open / kept_open | complete | May 5, 2026, 12:34 UTC |
@@ -97,8 +99,6 @@ Last source update: May 5, 2026, 12:43 UTC
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#65](https://github.com/openclaw/clawhub/issues/65) | MoltHub search broken (both on the website and in CLI) | keep_open / kept_open | complete | May 5, 2026, 12:29 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77831](https://github.com/openclaw/openclaw/issues/77831) | [Bug]: memory-core dreaming pollutes MEMORY.md and vector store with session-corpus data | keep_open / kept_open | complete | May 5, 2026, 12:27 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#6792](https://github.com/openclaw/openclaw/issues/6792) | Feature: configPatch in plugin manifest — automatic config setup on install | keep_open / kept_open | complete | May 5, 2026, 12:27 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#73349](https://github.com/openclaw/openclaw/pull/73349) | feat(exec): inject OPENCLAW_SESSION_KEY and OPENCLAW_AGENT_ID env vars for child processes | keep_open / kept_open | complete | May 5, 2026, 12:26 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77633](https://github.com/openclaw/openclaw/pull/77633) | chore(i18n): update zh-CN translations | keep_open / kept_open | complete | May 5, 2026, 12:26 UTC |
 
 </details>
 
@@ -108,7 +108,7 @@ Last source update: May 5, 2026, 12:43 UTC
 | --- | --- | --- | ---: | ---: | ---: | --- |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | clean | May 5, 2026, 12:43 UTC | 0 | 1 | 0 | yes |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | clean | May 5, 2026, 12:42 UTC | 0 | 0 | 0 | yes |
-| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | missing records | May 5, 2026, 07:05 UTC | 1 | 0 | 0 | yes |
+| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | missing records | May 5, 2026, 12:48 UTC | 1 | 0 | 0 | yes |
 
 
 ## Repair Dashboard
