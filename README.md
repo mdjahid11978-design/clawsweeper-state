@@ -4,42 +4,44 @@ Generated from the durable state branch for [openclaw/clawsweeper](https://githu
 
 ## Sweep Dashboard
 
-Last source update: May 6, 2026, 12:58 UTC
+Last source update: May 6, 2026, 13:32 UTC
 
 ### Fleet
 
 | Metric | Count |
 | --- | ---: |
 | Covered repositories | 3 |
-| Open review records | 7337 |
-| Archived closed records | 18570 |
-| Fresh reviews, 7d | 7228 |
+| Open review records | 7338 |
+| Archived closed records | 18578 |
+| Fresh reviews, 7d | 7229 |
 | Proposed closes awaiting apply | 0 |
-| Work candidates awaiting promotion | 2918 |
-| Failed or stale reviews | 69 |
+| Work candidates awaiting promotion | 2917 |
+| Failed or stale reviews | 70 |
 
 ### Current Runs
 
 | Repository | State | Updated | Run |
 | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Review in progress | May 6, 2026, 12:58 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25436610374) |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Apply finished | May 6, 2026, 12:54 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25436424922) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Apply finished | May 6, 2026, 13:31 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25438285465) |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Apply in progress | May 6, 2026, 13:32 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25438432212) |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | Audit finished | May 6, 2026, 07:14 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25421636354) |
 
 ### Repositories
 
 | Repository | Open records | Archived | Fresh | Proposed closes | Work candidates | Failed/stale | Last review | Last close |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 7083 | 17801 | 6975 | 0 | 2897 | 68 | May 6, 2026, 12:56 UTC | May 6, 2026, 12:56 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | 254 | 763 | 253 | 0 | 21 | 1 | May 6, 2026, 12:51 UTC | May 6, 2026, 07:40 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 7084 | 17809 | 6976 | 0 | 2896 | 69 | May 6, 2026, 13:32 UTC | May 6, 2026, 13:25 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | 254 | 763 | 253 | 0 | 21 | 1 | May 6, 2026, 13:30 UTC | May 6, 2026, 07:40 UTC |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | 0 | 6 | 0 | 0 | 0 | 0 | unknown | May 6, 2026, 01:07 UTC |
 
 ### Work Candidates
 
 | Repository | Item | Title | Priority | Reviewed | Report |
 | --- | --- | --- | --- | --- | --- |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78484](https://github.com/openclaw/openclaw/issues/78484) | Codex agent on Telegram fails with stale openai:default API key despite all corrective actions | high | May 6, 2026, 13:27 UTC | [records/openclaw-openclaw/items/78484.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/78484.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78403](https://github.com/openclaw/openclaw/pull/78403) | fix(cron): allow restricted self introspection | high | May 6, 2026, 13:16 UTC | [records/openclaw-openclaw/items/78403.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/78403.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78473](https://github.com/openclaw/openclaw/issues/78473) | Telegram polling silently wedges after stall — transport rebuild never starts new polling cycle (5.4 + 5.5) | high | May 6, 2026, 13:04 UTC | [records/openclaw-openclaw/items/78473.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/78473.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#1210](https://github.com/openclaw/openclaw/issues/1210) | Images from Discord stored as base64 in session transcripts | high | May 6, 2026, 12:46 UTC | [records/openclaw-openclaw/items/1210.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/1210.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77126](https://github.com/openclaw/openclaw/pull/77126) | lint: classify raw socket callsites | high | May 6, 2026, 12:44 UTC | [records/openclaw-openclaw/items/77126.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/77126.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77151](https://github.com/openclaw/openclaw/pull/77151) | fix(channels): do not mark optional-with-default fields as required in channel config json schema | high | May 6, 2026, 12:20 UTC | [records/openclaw-openclaw/items/77151.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/77151.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78261](https://github.com/openclaw/openclaw/pull/78261) | fix(telegram): expose provider-accepted outbound delivery | high | May 6, 2026, 12:17 UTC | [records/openclaw-openclaw/items/78261.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/78261.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78451](https://github.com/openclaw/openclaw/issues/78451) | [Bug] Commitments extraction fails with MiniMax-M2.7-highspeed on non-highspeed plans | high | May 6, 2026, 12:02 UTC | [records/openclaw-openclaw/items/78451.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/78451.md) |
@@ -50,14 +52,12 @@ Last source update: May 6, 2026, 12:58 UTC
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#73349](https://github.com/openclaw/openclaw/pull/73349) | feat(exec): inject OPENCLAW_SESSION_KEY and OPENCLAW_AGENT_ID env vars for child processes | high | May 6, 2026, 11:09 UTC | [records/openclaw-openclaw/items/73349.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/73349.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78422](https://github.com/openclaw/openclaw/issues/78422) | [Bug] Telegram polling silently dies for 30+ min with no error and no auto-recovery; pollingStallThresholdM... | high | May 6, 2026, 10:44 UTC | [records/openclaw-openclaw/items/78422.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/78422.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#7433](https://github.com/openclaw/openclaw/issues/7433) | Improve WhatsApp/Baileys group message reliability | high | May 6, 2026, 10:40 UTC | [records/openclaw-openclaw/items/7433.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/7433.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78403](https://github.com/openclaw/openclaw/pull/78403) | fix(cron): allow restricted self introspection | high | May 6, 2026, 10:16 UTC | [records/openclaw-openclaw/items/78403.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/78403.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78405](https://github.com/openclaw/openclaw/issues/78405) | Silent text-reply drops with visibleReplies="message_tool" — improve observability | high | May 6, 2026, 10:11 UTC | [records/openclaw-openclaw/items/78405.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/78405.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#76854](https://github.com/openclaw/openclaw/pull/76854) | fix: clean false-live session locks | high | May 6, 2026, 10:08 UTC | [records/openclaw-openclaw/items/76854.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/76854.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78398](https://github.com/openclaw/openclaw/issues/78398) | fix(plugin-sdk): zod bare import fails to resolve in pnpm global installs | high | May 6, 2026, 09:42 UTC | [records/openclaw-openclaw/items/78398.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/78398.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78384](https://github.com/openclaw/openclaw/issues/78384) | [Bug]: Assistant can reply to stale user intent after reasoning-only/tool retry | high | May 6, 2026, 09:14 UTC | [records/openclaw-openclaw/items/78384.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/78384.md) |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#874](https://github.com/openclaw/clawhub/issues/874) | Publish silently drops extensionless files and .tsv files | high | May 6, 2026, 09:00 UTC | [records/openclaw-clawhub/items/874.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-clawhub/items/874.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78372](https://github.com/openclaw/openclaw/issues/78372) | [Bug]: MEDIA directive delivers attachments twice on Telegram (non-streaming) | high | May 6, 2026, 08:56 UTC | [records/openclaw-openclaw/items/78372.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/78372.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#73717](https://github.com/openclaw/openclaw/pull/73717) | fix(cli): canonicalize infer model run refs | high | May 6, 2026, 08:53 UTC | [records/openclaw-openclaw/items/73717.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/73717.md) |
 
 ### Recently Closed
 
@@ -84,21 +84,21 @@ Last source update: May 6, 2026, 12:58 UTC
 
 | Repository | Item | Title | Outcome | Status | Reviewed |
 | --- | --- | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78472](https://github.com/openclaw/openclaw/pull/78472) | test(agents): cover bashExecution + branchSummary branches in compaction-real-conversation | keep_open / kept_open | complete | May 6, 2026, 12:56 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77948](https://github.com/openclaw/openclaw/pull/77948) | fix: reuse plugin metadata snapshot for provider runtime loads | keep_open / kept_open | complete | May 6, 2026, 12:54 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#51](https://github.com/openclaw/clawhub/issues/51) | clawdhub@0.3.0 on npm missing dependency 'undici' (ERR_MODULE_NOT_FOUND) | keep_open / kept_open | complete | May 6, 2026, 12:51 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2032](https://github.com/openclaw/clawhub/issues/2032) | skill safe-encryption-skill: Spec Prohibits File Output But CLI Tool's Standard Interface Is File Output | keep_open / kept_open | complete | May 6, 2026, 12:51 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78464](https://github.com/openclaw/openclaw/pull/78464) | fix(plugin-sdk): bundle zod subpath artifact | keep_open / kept_open | complete | May 6, 2026, 12:51 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#59685](https://github.com/openclaw/openclaw/pull/59685) | fix(status): avoid memory plugin false negatives | keep_open / kept_open | complete | May 6, 2026, 12:50 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78470](https://github.com/openclaw/openclaw/issues/78470) | [Bug]: 飞书插件无法发送图片（image delivery via filePath returns ok but image not received） | keep_open / kept_open | complete | May 6, 2026, 12:49 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78441](https://github.com/openclaw/openclaw/pull/78441) | feat(subagents): forward toolsAllow from sessions_spawn | keep_open / kept_open | complete | May 6, 2026, 12:47 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#1210](https://github.com/openclaw/openclaw/issues/1210) | Images from Discord stored as base64 in session transcripts | keep_open / kept_open | complete | May 6, 2026, 12:46 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78440](https://github.com/openclaw/openclaw/pull/78440) | fix(memory-core): make dream narrative timeout configurable | keep_open / kept_open | complete | May 6, 2026, 12:44 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#127](https://github.com/openclaw/clawhub/issues/127) | BUG: Skill Page Content Overflow | keep_open / kept_open | complete | May 6, 2026, 12:44 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77126](https://github.com/openclaw/openclaw/pull/77126) | lint: classify raw socket callsites | keep_open / kept_open | complete | May 6, 2026, 12:44 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78467](https://github.com/openclaw/openclaw/pull/78467) | fix(browser): allow user profile autoconnect start gate | keep_open / kept_open | complete | May 6, 2026, 12:42 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78434](https://github.com/openclaw/openclaw/issues/78434) | @tencent-weixin/openclaw-weixin login fails with TypeError: fetch failed inside Gateway process | close / skipped_invalid_decision | complete | May 6, 2026, 12:41 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2049](https://github.com/openclaw/clawhub/issues/2049) | [False Positive] - Skill Flagged as sensitive, just for checking URL and alerting user | keep_open / kept_open | complete | May 6, 2026, 12:40 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78487](https://github.com/openclaw/openclaw/issues/78487) | [bug]: TUI streaming watchdog shows stale warning when agent response exceeds 30s | keep_open / kept_open | complete | May 6, 2026, 13:32 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#77](https://github.com/openclaw/clawhub/issues/77) | Title limit for skills | keep_open / kept_open | complete | May 6, 2026, 13:30 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78448](https://github.com/openclaw/openclaw/pull/78448) | fix(control-ui): read exec policy from tools.exec.security in Quick Settings | keep_open / kept_open | complete | May 6, 2026, 13:27 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78484](https://github.com/openclaw/openclaw/issues/78484) | Codex agent on Telegram fails with stale openai:default API key despite all corrective actions | keep_open / kept_open | complete | May 6, 2026, 13:27 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#8673](https://github.com/openclaw/openclaw/issues/8673) | Add retry logic to OAuth token refresh | keep_open / kept_open | complete | May 6, 2026, 13:26 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#59685](https://github.com/openclaw/openclaw/pull/59685) | fix(status): avoid memory plugin false negatives | keep_open / kept_open | complete | May 6, 2026, 13:26 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78480](https://github.com/openclaw/openclaw/pull/78480) | fix(plugins): reuse workspace snapshot for model normalization | keep_open / kept_open | complete | May 6, 2026, 13:24 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#129](https://github.com/openclaw/clawhub/issues/129) | Security: Malicious Skills Github Persistence Downstream Security Effects | keep_open / kept_open | complete | May 6, 2026, 13:24 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78485](https://github.com/openclaw/openclaw/pull/78485) | fix(plugin-sdk): bundle zod to resolve bare import in pnpm global installs (#78398) | keep_open / kept_open | complete | May 6, 2026, 13:23 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75100](https://github.com/openclaw/openclaw/pull/75100) | feat(feishu): add segment streaming mode | keep_open / kept_open | complete | May 6, 2026, 13:23 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78441](https://github.com/openclaw/openclaw/pull/78441) | feat(subagents): forward toolsAllow from sessions_spawn | keep_open / kept_open | complete | May 6, 2026, 13:22 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2046](https://github.com/openclaw/clawhub/issues/2046) | [Skill Appeal] markdown2doc incorrectly flagged as suspicious | keep_open / kept_open | complete | May 6, 2026, 13:22 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77153](https://github.com/openclaw/openclaw/pull/77153) | Show exec command risks in approvals | keep_open / kept_open | complete | May 6, 2026, 13:21 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#10029](https://github.com/openclaw/openclaw/issues/10029) | [Feature]: Add syntax highlighting for code blocks in WebChat | keep_open / kept_open | complete | May 6, 2026, 13:19 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77799](https://github.com/openclaw/openclaw/pull/77799) | fix(plugins): forward setChannelRuntime from non-bundled external setup entries | keep_open / kept_open | complete | May 6, 2026, 13:18 UTC |
 
 </details>
 
