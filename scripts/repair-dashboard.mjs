@@ -194,11 +194,37 @@ function runLink(record) {
   return record.run_url ? link(record.run_id ?? "run", record.run_url) : "_none_";
 }
 
-function targetLink(action) {
+function targetLink(record, action) {
   const target = String(action.target ?? "");
   const match = target.match(/^https:\/\/github\.com\/([^/]+\/[^/]+)\/(issues|pull)\/(\d+)/);
   if (match) return link(`#${match[3]}`, target);
+  const shorthand = target.match(/^#(\d+)$/);
+  const repo = String(record.repo ?? "");
+  if (shorthand && /^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(repo)) {
+    const explicitUrl = githubItemUrlForNumber(action.url, shorthand[1]);
+    if (explicitUrl) return link(target, explicitUrl);
+    const segment = repairActionTargetsPullRequest(action) ? "pull" : "issues";
+    return link(target, `https://github.com/${repo}/${segment}/${shorthand[1]}`);
+  }
   return target ? link(target, target) : "";
+}
+
+function githubItemUrlForNumber(value, number) {
+  const url = String(value ?? "");
+  const match = url.match(/^https:\/\/github\.com\/[^/]+\/[^/]+\/(?:issues|pull)\/(\d+)$/);
+  return match?.[1] === number ? url : "";
+}
+
+function repairActionTargetsPullRequest(action) {
+  const actionName = String(action.action ?? "");
+  const classification = String(action.classification ?? "");
+  return (
+    actionName.startsWith("merge_") ||
+    actionName.includes("automerge") ||
+    actionName.includes("repair_contributor_branch") ||
+    classification === "canonical" ||
+    classification === "fix_pr"
+  );
 }
 
 function inspectionRow(row) {
@@ -207,10 +233,10 @@ function inspectionRow(row) {
 
 function fixRow(row) {
   const action = row.action;
-  return `| ${clusterLink(row.record)} | ${tableCell(action.status)} | ${targetLink(action)} | ${tableCell(action.branch ?? action.pr ?? "")} | ${truncate(action.reason, 150)} | ${runLink(row.record)} |`;
+  return `| ${clusterLink(row.record)} | ${tableCell(action.status)} | ${targetLink(row.record, action)} | ${tableCell(action.branch ?? action.pr ?? "")} | ${truncate(action.reason, 150)} | ${runLink(row.record)} |`;
 }
 
 function closeRow(row) {
   const action = row.action;
-  return `| ${targetLink(action)} | ${tableCell(action.action)} | ${truncate(action.title ?? "")} | ${formatTimestamp(action.closed_at ?? action.merged_at ?? row.record.published_at)} | ${clusterLink(row.record)} | ${clusterLink(row.record)} | ${runLink(row.record)} |`;
+  return `| ${targetLink(row.record, action)} | ${tableCell(action.action)} | ${truncate(action.title ?? "")} | ${formatTimestamp(action.closed_at ?? action.merged_at ?? row.record.published_at)} | ${clusterLink(row.record)} | ${clusterLink(row.record)} | ${runLink(row.record)} |`;
 }
