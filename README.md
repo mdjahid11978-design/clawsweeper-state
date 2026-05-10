@@ -4,25 +4,25 @@ Generated from the durable state branch for [openclaw/clawsweeper](https://githu
 
 ## Sweep Dashboard
 
-Last source update: May 10, 2026, 01:15 UTC
+Last source update: May 10, 2026, 01:19 UTC
 
 ### Fleet
 
 | Metric | Count |
 | --- | ---: |
 | Covered repositories | 3 |
-| Open review records | 7710 |
-| Archived closed records | 19571 |
-| Fresh reviews, 7d | 5728 |
+| Open review records | 7711 |
+| Archived closed records | 19570 |
+| Fresh reviews, 7d | 5723 |
 | Proposed closes awaiting apply | 0 |
-| Work candidates awaiting promotion | 1821 |
-| Failed or stale reviews | 122 |
+| Work candidates awaiting promotion | 1818 |
+| Failed or stale reviews | 124 |
 
 ### Current Runs
 
 | Repository | State | Updated | Run |
 | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Review publish complete | May 10, 2026, 01:14 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25616193126) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Apply finished | May 10, 2026, 01:19 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25616361506) |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | Review comments checked | May 10, 2026, 00:02 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25614976703) |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | Audit finished | May 9, 2026, 18:37 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25608767616) |
 
@@ -30,7 +30,7 @@ Last source update: May 10, 2026, 01:15 UTC
 
 | Repository | Open records | Archived | Fresh | Proposed closes | Work candidates | Failed/stale | Last review | Last close |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 7448 | 18746 | 5466 | 0 | 1803 | 121 | May 10, 2026, 01:15 UTC | May 10, 2026, 01:15 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 7449 | 18745 | 5461 | 0 | 1800 | 123 | May 10, 2026, 01:14 UTC | May 10, 2026, 01:18 UTC |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | 262 | 819 | 262 | 0 | 18 | 1 | May 10, 2026, 00:01 UTC | May 10, 2026, 00:02 UTC |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | 0 | 6 | 0 | 0 | 0 | 0 | unknown | May 6, 2026, 01:07 UTC |
 
@@ -63,14 +63,13 @@ Last source update: May 10, 2026, 01:15 UTC
 
 | Repository | Item | Title | Reason | Closed | Report |
 | --- | --- | --- | --- | --- | --- |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77456](https://github.com/openclaw/openclaw/pull/77456) | Fix diffs viewer TTL config and LAN route | closed externally after review | May 10, 2026, 01:18 UTC | [records/openclaw-openclaw/closed/77456.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/77456.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#79995](https://github.com/openclaw/openclaw/issues/79995) | Control UI not responsive on iPhone — content overflows viewport | duplicate_or_superseded | May 10, 2026, 01:15 UTC | [records/openclaw-openclaw/closed/79995.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/79995.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#80031](https://github.com/openclaw/openclaw/issues/80031) | [Bug]: Claude ACP bridge fails immediately with redacted ACP_TURN_FAILED / Internal error (OpenClaw 2026.5.... | duplicate_or_superseded | May 10, 2026, 01:15 UTC | [records/openclaw-openclaw/closed/80031.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/80031.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#79943](https://github.com/openclaw/openclaw/issues/79943) | [Bug]: Question: How to expose user mcp.servers tools to Anthropic provider in 2026.5.7? (route=native, pol... | duplicate_or_superseded | May 10, 2026, 01:15 UTC | [records/openclaw-openclaw/closed/79943.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/79943.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#79906](https://github.com/openclaw/openclaw/issues/79906) | Docs describe agentRuntime fields (provider-scoped, model-scoped) that 2026.5.7 schema rejects and source c... | implemented_on_main | May 10, 2026, 01:15 UTC | [records/openclaw-openclaw/closed/79906.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/79906.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#79942](https://github.com/openclaw/openclaw/pull/79942) | fix(i18n): correct zh-CN glossary entries and add zh-TW translations | closed externally after review | May 10, 2026, 01:15 UTC | [records/openclaw-openclaw/closed/79942.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/79942.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#79473](https://github.com/openclaw/openclaw/pull/79473) | [AI-assisted] fix(openai): keep API-key profiles on direct runtime | duplicate_or_superseded | May 10, 2026, 01:15 UTC | [records/openclaw-openclaw/closed/79473.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/79473.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#54985](https://github.com/openclaw/openclaw/pull/54985) | feat(gateway): add LLM request context headers for AI gateway integra… | closed externally after review | May 10, 2026, 01:15 UTC | [records/openclaw-openclaw/closed/54985.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/54985.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#40878](https://github.com/openclaw/openclaw/pull/40878) | fix(ios): picker adaptive onChange loop + OSLog string concatenation | closed externally after review | May 10, 2026, 01:15 UTC | [records/openclaw-openclaw/closed/40878.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/40878.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#8295](https://github.com/openclaw/openclaw/issues/8295) | [Feature]: Add allowBots support for Telegram groups (parity with Discord/Slack) | duplicate_or_superseded | May 10, 2026, 01:15 UTC | [records/openclaw-openclaw/closed/8295.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/8295.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#39498](https://github.com/openclaw/openclaw/pull/39498) | fix(secrets): prevent ByteString crashes from pasted unicode chars | mostly_implemented_on_main | May 10, 2026, 01:14 UTC | [records/openclaw-openclaw/closed/39498.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/39498.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#13607](https://github.com/openclaw/openclaw/issues/13607) | Feature: global default for reasoning visiblity | implemented_on_main | May 10, 2026, 01:14 UTC | [records/openclaw-openclaw/closed/13607.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/13607.md) |
@@ -78,13 +77,13 @@ Last source update: May 10, 2026, 01:15 UTC
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#79353](https://github.com/openclaw/openclaw/issues/79353) | xai provider not registering x_search / code_execution tools even with valid Grok model | closed externally after review | May 10, 2026, 01:05 UTC | [records/openclaw-openclaw/closed/79353.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/79353.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#80017](https://github.com/openclaw/openclaw/pull/80017) | Keep migrated OpenAI Codex OAuth runs on native Codex auth | closed externally after review | May 10, 2026, 00:58 UTC | [records/openclaw-openclaw/closed/80017.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/80017.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#79457](https://github.com/openclaw/openclaw/issues/79457) | Feishu group chat @mention reply fails with dropping caller-provided groupId error | closed externally after review | May 10, 2026, 00:55 UTC | [records/openclaw-openclaw/closed/79457.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/79457.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#79310](https://github.com/openclaw/openclaw/issues/79310) | QQBot: Framework slash commands (/models, /status, /new) not responding in QQ channel | closed externally after review | May 10, 2026, 00:55 UTC | [records/openclaw-openclaw/closed/79310.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/79310.md) |
 
 <details>
 <summary>Recently Reviewed</summary>
 
 | Repository | Item | Title | Outcome | Status | Reviewed |
 | --- | --- | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#79823](https://github.com/openclaw/openclaw/pull/79823) | feat: add core tool search | keep_open / kept_open | complete | May 10, 2026, 01:15 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#80043](https://github.com/openclaw/openclaw/pull/80043) | fix(whatsapp): dispatch debounced media messages individually to prevent image loss | keep_open / kept_open | failed | May 10, 2026, 01:14 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#12554](https://github.com/openclaw/openclaw/issues/12554) | [Feature]: sessions_kill should terminate all child exec processes spawned by a session | keep_open / kept_open | complete | May 10, 2026, 01:13 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#10213](https://github.com/openclaw/openclaw/issues/10213) | feat: Add Anthropic server-side compaction API support | keep_open / kept_open | complete | May 10, 2026, 01:12 UTC |
@@ -99,6 +98,7 @@ Last source update: May 10, 2026, 01:15 UTC
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#13362](https://github.com/openclaw/openclaw/issues/13362) | [Feature]: Add openclaw doctor --dry-run for safer config validation | keep_open / kept_open | complete | May 10, 2026, 01:11 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#13751](https://github.com/openclaw/openclaw/issues/13751) | Feishu plugin: remove dependency on contact:contact.base:readonly for sender name resolution | keep_open / kept_open | complete | May 10, 2026, 01:11 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#12678](https://github.com/openclaw/openclaw/issues/12678) | [Feature]: Capability-based permissions for skills/tools (default-deny high-risk actions) | keep_open / kept_open | complete | May 10, 2026, 01:11 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#13911](https://github.com/openclaw/openclaw/issues/13911) | Feature: per-channel announce suppression for sub-agents | keep_open / kept_open | complete | May 10, 2026, 01:11 UTC |
 
 </details>
 
@@ -106,9 +106,9 @@ Last source update: May 10, 2026, 01:15 UTC
 
 | Repository | Status | Last audit | Missing eligible | Stale records | Protected proposed | Scan complete |
 | --- | --- | --- | ---: | ---: | ---: | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | missing records | May 9, 2026, 18:34 UTC | 134 | 0 | 0 | yes |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | open archived records | May 10, 2026, 01:16 UTC | 138 | 9 | 0 | yes |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | clean | May 10, 2026, 01:14 UTC | 0 | 0 | 0 | yes |
-| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | missing records | May 9, 2026, 18:37 UTC | 3 | 0 | 0 | yes |
+| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | missing records | May 10, 2026, 01:17 UTC | 3 | 0 | 0 | yes |
 
 
 ## Repair Dashboard
