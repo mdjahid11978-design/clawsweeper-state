@@ -4,7 +4,7 @@ Generated from the durable state branch for [openclaw/clawsweeper](https://githu
 
 ## Sweep Dashboard
 
-Last source update: May 12, 2026, 18:52 UTC
+Last source update: May 12, 2026, 18:58 UTC
 
 ### Fleet
 
@@ -13,7 +13,7 @@ Last source update: May 12, 2026, 18:52 UTC
 | Covered repositories | 3 |
 | Open review records | 7358 |
 | Archived closed records | 20997 |
-| Fresh reviews, 7d | 6050 |
+| Fresh reviews, 7d | 6046 |
 | Proposed closes awaiting apply | 0 |
 | Work candidates awaiting promotion | 855 |
 | Failed or stale reviews | 87 |
@@ -22,7 +22,7 @@ Last source update: May 12, 2026, 18:52 UTC
 
 | Repository | State | Updated | Run |
 | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Audit finished | May 12, 2026, 18:52 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25755255183) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Apply finished | May 12, 2026, 18:58 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25755555433) |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | Hot intake publish complete | May 12, 2026, 18:17 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25753446225) |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | Audit finished | May 12, 2026, 07:19 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25719584190) |
 
@@ -30,7 +30,7 @@ Last source update: May 12, 2026, 18:52 UTC
 
 | Repository | Open records | Archived | Fresh | Proposed closes | Work candidates | Failed/stale | Last review | Last close |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 7181 | 20056 | 5882 | 0 | 840 | 86 | May 12, 2026, 18:52 UTC | May 12, 2026, 18:51 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 7181 | 20056 | 5878 | 0 | 840 | 86 | May 12, 2026, 18:48 UTC | May 12, 2026, 18:51 UTC |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | 177 | 935 | 168 | 0 | 15 | 1 | May 12, 2026, 18:09 UTC | May 12, 2026, 18:11 UTC |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | 0 | 6 | 0 | 0 | 0 | 0 | unknown | May 6, 2026, 01:07 UTC |
 
@@ -84,7 +84,6 @@ Last source update: May 12, 2026, 18:52 UTC
 
 | Repository | Item | Title | Outcome | Status | Reviewed |
 | --- | --- | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75217](https://github.com/openclaw/openclaw/pull/75217) | fix(agents): honor skipBootstrap at runtime injection path (#75184) | keep_open / kept_open | complete | May 12, 2026, 18:52 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#81112](https://github.com/openclaw/openclaw/pull/81112) | fix: migrate plugin tool contracts in doctor | keep_open / kept_open | complete | May 12, 2026, 18:48 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#81110](https://github.com/openclaw/openclaw/pull/81110) | fix: keep codex webchat replies automatic | keep_open / kept_open | complete | May 12, 2026, 18:48 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#81108](https://github.com/openclaw/openclaw/pull/81108) | fix(gateway): discover disk compaction checkpoints | keep_open / kept_open | complete | May 12, 2026, 18:47 UTC |
@@ -99,6 +98,7 @@ Last source update: May 12, 2026, 18:52 UTC
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#80242](https://github.com/openclaw/openclaw/pull/80242) | fix: route subagent announce to originating parent session instead of channel-bound peer session | keep_open / kept_open | complete | May 12, 2026, 18:43 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#70191](https://github.com/openclaw/openclaw/issues/70191) | Proposal: native /health/deep probe endpoint for external model-contract verification | keep_open / kept_open | complete | May 12, 2026, 18:43 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#72807](https://github.com/openclaw/openclaw/pull/72807) | feat(agents): allow opting out of git init on agents.create | keep_open / kept_open | complete | May 12, 2026, 18:43 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#80732](https://github.com/openclaw/openclaw/issues/80732) | openai-completions / openai-responses providers reject configured `baseUrl` on private IPs (SSRF policy) | keep_open / kept_open | complete | May 12, 2026, 18:42 UTC |
 
 </details>
 
@@ -108,7 +108,7 @@ Last source update: May 12, 2026, 18:52 UTC
 | --- | --- | --- | ---: | ---: | ---: | --- |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | missing records | May 12, 2026, 18:52 UTC | 52 | 1 | 0 | yes |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | clean | May 12, 2026, 18:51 UTC | 0 | 0 | 0 | yes |
-| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | missing records | May 12, 2026, 13:00 UTC | 2 | 0 | 0 | yes |
+| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | missing records | May 12, 2026, 18:57 UTC | 2 | 0 | 0 | yes |
 
 
 ## Repair Dashboard
