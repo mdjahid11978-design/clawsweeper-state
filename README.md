@@ -4,33 +4,33 @@ Generated from the durable state branch for [openclaw/clawsweeper](https://githu
 
 ## Sweep Dashboard
 
-Last source update: May 18, 2026, 18:53 UTC
+Last source update: May 18, 2026, 18:57 UTC
 
 ### Fleet
 
 | Metric | Count |
 | --- | ---: |
 | Covered repositories | 3 |
-| Open review records | 7171 |
+| Open review records | 7172 |
 | Archived closed records | 23528 |
-| Fresh reviews, 7d | 7002 |
+| Fresh reviews, 7d | 7003 |
 | Proposed closes awaiting apply | 3 |
 | Work candidates awaiting promotion | 914 |
-| Failed or stale reviews | 42 |
+| Failed or stale reviews | 41 |
 
 ### Current Runs
 
 | Repository | State | Updated | Run |
 | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Apply finished | May 18, 2026, 18:52 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/26053170481) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Hot intake publish complete | May 18, 2026, 18:57 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/26052874025) |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | Review publish complete | May 18, 2026, 18:13 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/26051367438) |
-| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | Audit finished | May 17, 2026, 18:39 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/25999340041) |
+| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | Audit finished | May 18, 2026, 18:56 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/26053897983) |
 
 ### Repositories
 
 | Repository | Open records | Archived | Fresh | Proposed closes | Work candidates | Failed/stale | Last review | Last close |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 6960 | 22541 | 6802 | 3 | 905 | 40 | May 18, 2026, 18:53 UTC | May 18, 2026, 18:44 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 6961 | 22541 | 6803 | 3 | 905 | 39 | May 18, 2026, 18:57 UTC | May 18, 2026, 18:44 UTC |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | 211 | 981 | 200 | 0 | 9 | 2 | May 18, 2026, 18:30 UTC | May 18, 2026, 06:04 UTC |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | 0 | 6 | 0 | 0 | 0 | 0 | unknown | May 6, 2026, 01:07 UTC |
 
@@ -38,8 +38,9 @@ Last source update: May 18, 2026, 18:53 UTC
 
 | Repository | Item | Title | Priority | Reviewed | Report |
 | --- | --- | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83304](https://github.com/openclaw/openclaw/pull/83304) | fix(telegram): prevent polling stalls via TCP keepalive and widened connect grace | high | May 18, 2026, 18:51 UTC | [records/openclaw-openclaw/items/83304.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/83304.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83727](https://github.com/openclaw/openclaw/issues/83727) | [Bug]: Error fetching a token for connecting to the server: | high | May 18, 2026, 18:51 UTC | [records/openclaw-openclaw/items/83727.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/83727.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83368](https://github.com/openclaw/openclaw/pull/83368) | fix(gateway): preserve raw external session aliases | high | May 18, 2026, 18:53 UTC | [records/openclaw-openclaw/items/83368.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/83368.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#81530](https://github.com/openclaw/openclaw/issues/81530) | [Bug]: [5.12-beta.8] Telegram Supergroup Forum Topics — Inbound Messages Not Processed | high | May 18, 2026, 18:53 UTC | [records/openclaw-openclaw/items/81530.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/81530.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83727](https://github.com/openclaw/openclaw/issues/83727) | [Bug]: Error fetching a token for connecting to the server: | high | May 18, 2026, 18:53 UTC | [records/openclaw-openclaw/items/83727.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/83727.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#47335](https://github.com/openclaw/openclaw/issues/47335) | Reply generated but not delivered when compaction triggers session rollover | high | May 18, 2026, 18:29 UTC | [records/openclaw-openclaw/items/47335.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/47335.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83069](https://github.com/openclaw/openclaw/issues/83069) | Telegram forum-topic voice notes reach agent as raw audio while DM transcription/echo works | high | May 18, 2026, 18:28 UTC | [records/openclaw-openclaw/items/83069.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/83069.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#46899](https://github.com/openclaw/openclaw/issues/46899) | [Bug]: Cron Job Delivery Channel Mismatch - Telegram Configured but Feishu Used | high | May 18, 2026, 18:28 UTC | [records/openclaw-openclaw/items/46899.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/46899.md) |
@@ -56,7 +57,6 @@ Last source update: May 18, 2026, 18:53 UTC
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83633](https://github.com/openclaw/openclaw/pull/83633) | fix/telegram-context-controls | high | May 18, 2026, 15:12 UTC | [records/openclaw-openclaw/items/83633.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/83633.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#81971](https://github.com/openclaw/openclaw/pull/81971) | fix(agents): bridge Claude native tools through exec policy | high | May 18, 2026, 15:08 UTC | [records/openclaw-openclaw/items/81971.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/81971.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83644](https://github.com/openclaw/openclaw/pull/83644) | refactor(channels): unify session route projection | high | May 18, 2026, 15:07 UTC | [records/openclaw-openclaw/items/83644.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/83644.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83368](https://github.com/openclaw/openclaw/pull/83368) | fix(gateway): preserve raw external session aliases | high | May 18, 2026, 14:59 UTC | [records/openclaw-openclaw/items/83368.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/83368.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#41671](https://github.com/openclaw/openclaw/issues/41671) | [Bug]: Telegram media download fails on IPv4-broken / IPv6-working hosts because runtime IPv4 fallback over... | high | May 18, 2026, 14:42 UTC | [records/openclaw-openclaw/items/41671.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/41671.md) |
 
 ### Recently Closed
@@ -84,21 +84,21 @@ Last source update: May 18, 2026, 18:53 UTC
 
 | Repository | Item | Title | Outcome | Status | Reviewed |
 | --- | --- | --- | --- | --- | --- |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83728](https://github.com/openclaw/openclaw/pull/83728) | perf: reduce latency across async I/O hot paths | keep_open / kept_open | complete | May 18, 2026, 18:57 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78303](https://github.com/openclaw/openclaw/pull/78303) | feat(mcp): channel-mediated approval for MCP tool calls (consent envelope) | keep_open / kept_open | complete | May 18, 2026, 18:55 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83717](https://github.com/openclaw/openclaw/pull/83717) | test(qa-lab): add personal share-safe diagnostics scenario | keep_open / kept_open | complete | May 18, 2026, 18:54 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83600](https://github.com/openclaw/openclaw/pull/83600) | feat(whatsapp): support list reply actions | keep_open / kept_open | complete | May 18, 2026, 18:54 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83018](https://github.com/openclaw/openclaw/issues/83018) | Allow disabling Codex inner sandbox when OpenClaw Docker sandbox is active | keep_open / kept_open | complete | May 18, 2026, 18:53 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83304](https://github.com/openclaw/openclaw/pull/83304) | fix(telegram): prevent polling stalls via TCP keepalive and widened connect grace | keep_open / kept_open | complete | May 18, 2026, 18:53 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#82231](https://github.com/openclaw/openclaw/issues/82231) | [Bug]: openai-codex OAuth reports ok after fresh login, but first agent request fails with 401 token valida... | keep_open / kept_open | complete | May 18, 2026, 18:53 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83368](https://github.com/openclaw/openclaw/pull/83368) | fix(gateway): preserve raw external session aliases | keep_open / kept_open | complete | May 18, 2026, 18:53 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#81530](https://github.com/openclaw/openclaw/issues/81530) | [Bug]: [5.12-beta.8] Telegram Supergroup Forum Topics — Inbound Messages Not Processed | keep_open / kept_open | complete | May 18, 2026, 18:53 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78459](https://github.com/openclaw/openclaw/pull/78459) | fix(commitments): stop hardcoding fastMode in extraction (#78451) | keep_open / kept_open | complete | May 18, 2026, 18:53 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#81889](https://github.com/openclaw/openclaw/issues/81889) | [Feature]: WhatsApp login via phone-pairing code (Baileys requestPairingCode) as alternative to QR | keep_open / kept_open | complete | May 18, 2026, 18:53 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83727](https://github.com/openclaw/openclaw/issues/83727) | [Bug]: Error fetching a token for connecting to the server: | keep_open / kept_open | complete | May 18, 2026, 18:53 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#72348](https://github.com/openclaw/openclaw/pull/72348) | fix(nextcloud-talk): dispatch react action so agents can send reactions (#70110) | keep_open / kept_open | complete | May 18, 2026, 18:53 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83304](https://github.com/openclaw/openclaw/pull/83304) | fix(telegram): prevent polling stalls via TCP keepalive and widened connect grace | keep_open / kept_open | complete | May 18, 2026, 18:51 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83727](https://github.com/openclaw/openclaw/issues/83727) | [Bug]: Error fetching a token for connecting to the server: | keep_open / kept_open | complete | May 18, 2026, 18:51 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83367](https://github.com/openclaw/openclaw/pull/83367) | Fix Codex runtime hook and session churn | keep_open / kept_open | complete | May 18, 2026, 18:39 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#46830](https://github.com/openclaw/openclaw/issues/46830) | [Feature]: Message Delivery Failure Notification | keep_open / kept_open | failed | May 18, 2026, 18:37 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78574](https://github.com/openclaw/openclaw/pull/78574) | feat(github-copilot): add native web search for Copilot GPT models | keep_open / kept_open | complete | May 18, 2026, 18:37 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83637](https://github.com/openclaw/openclaw/pull/83637) | feat: add per-agent compaction overrides (AI-assisted) | keep_open / kept_open | complete | May 18, 2026, 18:36 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83670](https://github.com/openclaw/openclaw/pull/83670) | fix: Preserve Telegram hooks when flushing buffered finals | keep_open / kept_open | complete | May 18, 2026, 18:35 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#46812](https://github.com/openclaw/openclaw/issues/46812) | Control UI: Pinned context panel for user-defined persistent facts | keep_open / kept_open | complete | May 18, 2026, 18:35 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#46778](https://github.com/openclaw/openclaw/issues/46778) | 飞书消息重复推送，message_id 去重失效 | keep_open / kept_open | failed | May 18, 2026, 18:35 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#45427](https://github.com/openclaw/openclaw/issues/45427) | Feature: Include trusted sender_name in inbound metadata envelope | keep_open / kept_open | complete | May 18, 2026, 18:33 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#45158](https://github.com/openclaw/openclaw/issues/45158) | [Bug]: 飞书多 Agent 路由问题 - 所有消息都路由到同一个 agent | keep_open / kept_open | failed | May 18, 2026, 18:31 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#45382](https://github.com/openclaw/openclaw/issues/45382) | [Feature]: add VALUE.md as a first-class workspace context file | keep_open / kept_open | complete | May 18, 2026, 18:31 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83724](https://github.com/openclaw/openclaw/pull/83724) | fix(cron): suppress fatal error completion announce | keep_open / kept_open | complete | May 18, 2026, 18:31 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#46938](https://github.com/openclaw/openclaw/issues/46938) | 模型超时导致记忆维护失败，建议增加 session 临时存储机制 | keep_open / kept_open | complete | May 18, 2026, 18:30 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#45158](https://github.com/openclaw/openclaw/issues/45158) | [Bug]: 飞书多 Agent 路由问题 - 所有消息都路由到同一个 agent | keep_open / kept_open | complete | May 18, 2026, 18:52 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#81322](https://github.com/openclaw/openclaw/issues/81322) | [Bug]: WhatsApp image sending broken - images processed but not attached to outbound messages | keep_open / kept_open | complete | May 18, 2026, 18:52 UTC |
 
 </details>
 
@@ -108,7 +108,7 @@ Last source update: May 18, 2026, 18:53 UTC
 | --- | --- | --- | ---: | ---: | ---: | --- |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | missing records | May 18, 2026, 18:51 UTC | 7 | 2 | 0 | yes |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | clean | May 18, 2026, 18:51 UTC | 0 | 1 | 0 | yes |
-| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | missing records | May 18, 2026, 13:37 UTC | 1 | 0 | 0 | yes |
+| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | missing records | May 18, 2026, 18:56 UTC | 1 | 0 | 0 | yes |
 
 
 ## Repair Dashboard
