@@ -4,44 +4,49 @@ Generated from the durable state branch for [openclaw/clawsweeper](https://githu
 
 ## Sweep Dashboard
 
-Last source update: May 20, 2026, 02:17 UTC
+Last source update: May 20, 2026, 03:45 UTC
 
 ### Fleet
 
 | Metric | Count |
 | --- | ---: |
 | Covered repositories | 3 |
-| Open review records | 7226 |
-| Archived closed records | 24052 |
-| Fresh reviews, 7d | 7066 |
-| Proposed closes awaiting apply | 1 |
-| Work candidates awaiting promotion | 923 |
-| Failed or stale reviews | 3320 |
+| Open review records | 7230 |
+| Archived closed records | 24071 |
+| Fresh reviews, 7d | 7070 |
+| Proposed closes awaiting apply | 5 |
+| Work candidates awaiting promotion | 922 |
+| Failed or stale reviews | 3245 |
 
 ### Current Runs
 
 | Repository | State | Updated | Run |
 | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Hot intake publish complete | May 20, 2026, 02:15 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/26136829428) |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Audit finished | May 20, 2026, 01:18 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/26135266113) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Apply finished | May 20, 2026, 03:40 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/26139413975) |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Apply finished | May 20, 2026, 03:45 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/26139885114) |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | Audit finished | May 19, 2026, 18:59 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/26118618370) |
 
 ### Repositories
 
 | Repository | Open records | Archived | Fresh | Proposed closes | Work candidates | Failed/stale | Last review | Last close |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 7086 | 22958 | 6928 | 1 | 910 | 3320 | May 20, 2026, 02:17 UTC | May 20, 2026, 02:14 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | 140 | 1088 | 138 | 0 | 13 | 0 | May 20, 2026, 01:31 UTC | May 20, 2026, 01:21 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 7089 | 22977 | 6931 | 5 | 909 | 3245 | May 20, 2026, 03:44 UTC | May 20, 2026, 03:31 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | 141 | 1088 | 139 | 0 | 13 | 0 | May 20, 2026, 03:41 UTC | May 20, 2026, 01:21 UTC |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | 0 | 6 | 0 | 0 | 0 | 0 | unknown | May 6, 2026, 01:07 UTC |
 
 ### Work Candidates
 
 | Repository | Item | Title | Priority | Reviewed | Report |
 | --- | --- | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84102](https://github.com/openclaw/openclaw/pull/84102) | fix #84079: normalize SendMessage/content/text aliases to message before send validation | high | May 20, 2026, 02:16 UTC | [records/openclaw-openclaw/items/84102.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/84102.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84362](https://github.com/openclaw/openclaw/pull/84362) | fix(doctor): preserve explicit agentRuntime pin during codex model migration [AI-assisted] | high | May 20, 2026, 01:49 UTC | [records/openclaw-openclaw/items/84362.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/84362.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84408](https://github.com/openclaw/openclaw/pull/84408) | [Fix] Keep node systemd tokens out of unit files | high | May 20, 2026, 03:21 UTC | [records/openclaw-openclaw/items/84408.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/84408.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#68558](https://github.com/openclaw/openclaw/pull/68558) | fix(auto-reply): stop rendering misleading /compact labels on small sessions | high | May 20, 2026, 03:13 UTC | [records/openclaw-openclaw/items/68558.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/68558.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#51822](https://github.com/openclaw/openclaw/pull/51822) | cron: reject webhook URLs with embedded credentials | high | May 20, 2026, 03:06 UTC | [records/openclaw-openclaw/items/51822.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/51822.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84396](https://github.com/openclaw/openclaw/pull/84396) | Avoid writing resolved API keys to models config | high | May 20, 2026, 03:05 UTC | [records/openclaw-openclaw/items/84396.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/84396.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84289](https://github.com/openclaw/openclaw/pull/84289) | fix(pi): keep message-tool delivery in session lock | high | May 20, 2026, 02:59 UTC | [records/openclaw-openclaw/items/84289.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/84289.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84102](https://github.com/openclaw/openclaw/pull/84102) | fix #84079: normalize SendMessage/content/text aliases to message before send validation | high | May 20, 2026, 02:32 UTC | [records/openclaw-openclaw/items/84102.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/84102.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84362](https://github.com/openclaw/openclaw/pull/84362) | fix(doctor): preserve explicit agentRuntime pin during codex model migration [AI-assisted] | high | May 20, 2026, 02:28 UTC | [records/openclaw-openclaw/items/84362.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/84362.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#69118](https://github.com/openclaw/openclaw/issues/69118) | Claude CLI sessions reset on every turn in group channels due to groupIntro drift in extraSystemPromptHash | high | May 20, 2026, 02:15 UTC | [records/openclaw-openclaw/items/69118.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/69118.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84389](https://github.com/openclaw/openclaw/pull/84389) | Gateway: add oc heartbeat agents endpoint | high | May 20, 2026, 01:48 UTC | [records/openclaw-openclaw/items/84389.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/84389.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84386](https://github.com/openclaw/openclaw/issues/84386) | [Bug]: Codex OAuth relogin creates fresh named profile but lastGood keeps selecting stale default on 2026.5.18 | high | May 20, 2026, 01:48 UTC | [records/openclaw-openclaw/items/84386.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/84386.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#67716](https://github.com/openclaw/openclaw/issues/67716) | [Bug]: bootstrap/reconcile and hot-cache policy can leave deferred compaction debt stranded | high | May 20, 2026, 01:13 UTC | [records/openclaw-openclaw/items/67716.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/67716.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#68493](https://github.com/openclaw/openclaw/issues/68493) | [Bug]: Editing openclaw.json while gateway is running triggers hot-reload crash loop on Windows (stale lock... | high | May 20, 2026, 01:12 UTC | [records/openclaw-openclaw/items/68493.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/68493.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#67461](https://github.com/openclaw/openclaw/issues/67461) | Gateway leaks undici sockets on every streamed Anthropic API call (buildManagedResponse missing finalize on... | high | May 20, 2026, 01:10 UTC | [records/openclaw-openclaw/items/67461.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/67461.md) |
@@ -53,52 +58,47 @@ Last source update: May 20, 2026, 02:17 UTC
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2281](https://github.com/openclaw/clawhub/pull/2281) | fix: revalidate package publish owners before insert | high | May 19, 2026, 22:40 UTC | [records/openclaw-clawhub/items/2281.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-clawhub/items/2281.md) |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2285](https://github.com/openclaw/clawhub/pull/2285) | fix: restrict membership management to org publishers | high | May 19, 2026, 21:37 UTC | [records/openclaw-clawhub/items/2285.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-clawhub/items/2285.md) |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2283](https://github.com/openclaw/clawhub/pull/2283) | fix: hide package resources when owners are banned | high | May 19, 2026, 21:36 UTC | [records/openclaw-clawhub/items/2283.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-clawhub/items/2283.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#67177](https://github.com/openclaw/openclaw/issues/67177) | [msteams] Inbound file attachments silently fail in DMs — file.download.info downloadUrl not rewritten to G... | high | May 19, 2026, 21:27 UTC | [records/openclaw-openclaw/items/67177.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/67177.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#66946](https://github.com/openclaw/openclaw/issues/66946) | [Bug]: **Control UI路径重复导致404错误，聊天功能无法使用** | high | May 19, 2026, 21:20 UTC | [records/openclaw-openclaw/items/66946.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/66946.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84318](https://github.com/openclaw/openclaw/pull/84318) | perf(plugins): memoize isOfficialInstalledCodexPluginModulePath by modulePath | high | May 19, 2026, 21:06 UTC | [records/openclaw-openclaw/items/84318.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/84318.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84302](https://github.com/openclaw/openclaw/pull/84302) | perf(plugins): scan-scoped package.json cache in discovery | high | May 19, 2026, 20:45 UTC | [records/openclaw-openclaw/items/84302.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/84302.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#40611](https://github.com/openclaw/openclaw/issues/40611) | Heartbeat drift fix (PR #39182) causes aggressive retry that blocks Telegram during active conversations | high | May 19, 2026, 20:30 UTC | [records/openclaw-openclaw/items/40611.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/40611.md) |
 
 ### Recently Closed
 
 | Repository | Item | Title | Reason | Closed | Report |
 | --- | --- | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83816](https://github.com/openclaw/openclaw/pull/83816) | fix(telegram): guard rendered media caption length | closed externally after review | May 20, 2026, 02:14 UTC | [records/openclaw-openclaw/closed/83816.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/83816.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77230](https://github.com/openclaw/openclaw/pull/77230) | fix(mcp): normalize parameter-free tool inputSchema for OpenAI (#77043) | implemented_on_main | May 20, 2026, 02:02 UTC | [records/openclaw-openclaw/closed/77230.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/77230.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84380](https://github.com/openclaw/openclaw/pull/84380) | Audit config backups for plaintext secrets | duplicate_or_superseded | May 20, 2026, 01:54 UTC | [records/openclaw-openclaw/closed/84380.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/84380.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84368](https://github.com/openclaw/openclaw/pull/84368) | fix(code-mode): sharpen exec tool description so models stop wasting turns rediscovering constraints | closed externally after review | May 20, 2026, 01:48 UTC | [records/openclaw-openclaw/closed/84368.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/84368.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84274](https://github.com/openclaw/openclaw/pull/84274) | [codex] fix gateway chat.abort send race | closed externally after review | May 20, 2026, 01:48 UTC | [records/openclaw-openclaw/closed/84274.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/84274.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83315](https://github.com/openclaw/openclaw/pull/83315) | fix(doctor): preserve unknown web search records | closed externally after review | May 20, 2026, 01:48 UTC | [records/openclaw-openclaw/closed/83315.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/83315.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83287](https://github.com/openclaw/openclaw/issues/83287) | [Bug]: legacy web search migration drops unrelated record-valued config | closed externally after review | May 20, 2026, 01:48 UTC | [records/openclaw-openclaw/closed/83287.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/83287.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#68750](https://github.com/openclaw/openclaw/pull/68750) | fix: handle MiniMax prompt_cache_hit_tokens to prevent token double-counting | closed externally after review | May 20, 2026, 01:48 UTC | [records/openclaw-openclaw/closed/68750.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/68750.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#68648](https://github.com/openclaw/openclaw/pull/68648) | fix(exec): avoid waiting for final session result in approval followups | closed externally after review | May 20, 2026, 01:48 UTC | [records/openclaw-openclaw/closed/68648.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/68648.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#67626](https://github.com/openclaw/openclaw/issues/67626) | [Bug]: 越更新越更的像屎一样 | closed externally after review | May 20, 2026, 01:48 UTC | [records/openclaw-openclaw/closed/67626.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/67626.md) |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2334](https://github.com/openclaw/clawhub/issues/2334) | Plugin cleanup request: delete @vitalini/ebb-ai and @vitalini/ebb-ai-mcp so I can republish as one plugin w... | none | May 20, 2026, 01:21 UTC | [records/openclaw-clawhub/closed/2334.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-clawhub/closed/2334.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84372](https://github.com/openclaw/openclaw/pull/84372) | feat(skills): add watch-cli | closed externally after review | May 20, 2026, 01:20 UTC | [records/openclaw-openclaw/closed/84372.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/84372.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84332](https://github.com/openclaw/openclaw/issues/84332) | Heartbeat-spawned claude live session captures channel user inbounds, causing context-amnesiac fork replies | closed externally after review | May 20, 2026, 01:20 UTC | [records/openclaw-openclaw/closed/84332.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/84332.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84308](https://github.com/openclaw/openclaw/pull/84308) | fix(cron): keep recovered tool warnings diagnostic | closed externally after review | May 20, 2026, 01:20 UTC | [records/openclaw-openclaw/closed/84308.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/84308.md) |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2316](https://github.com/openclaw/clawhub/issues/2316) | False positive: agentauth flagged as suspicious — FIDO2 consent gate | closed externally after review | May 20, 2026, 01:18 UTC | [records/openclaw-clawhub/closed/2316.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-clawhub/closed/2316.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84407](https://github.com/openclaw/openclaw/issues/84407) | Add Microsoft Outlook / Microsoft 365 email plugin similar to gog | closed externally after review | May 20, 2026, 03:31 UTC | [records/openclaw-openclaw/closed/84407.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/84407.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84405](https://github.com/openclaw/openclaw/issues/84405) | [Feature]: Add `before_agent_run` hook support to embedded runner | closed externally after review | May 20, 2026, 03:31 UTC | [records/openclaw-openclaw/closed/84405.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/84405.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#82921](https://github.com/openclaw/openclaw/pull/82921) | fix: preserve AGENTS policy during bootstrap truncation | closed externally after review | May 20, 2026, 03:31 UTC | [records/openclaw-openclaw/closed/82921.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/82921.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#68438](https://github.com/openclaw/openclaw/issues/68438) | [Bug] Android node: TLS fingerprint mismatch after certificate renewal behind reverse proxy | closed externally after review | May 20, 2026, 03:31 UTC | [records/openclaw-openclaw/closed/68438.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/68438.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84272](https://github.com/openclaw/openclaw/issues/84272) | Subagent completion announce retry-limit logs hide the underlying delivery error | closed externally after review | May 20, 2026, 03:23 UTC | [records/openclaw-openclaw/closed/84272.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/84272.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83477](https://github.com/openclaw/openclaw/pull/83477) | Filter heartbeat response-tool transcript artifacts | closed externally after review | May 20, 2026, 03:23 UTC | [records/openclaw-openclaw/closed/83477.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/83477.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84400](https://github.com/openclaw/openclaw/issues/84400) | Bug: Codex App-Server crash leaves all embedded agent sessions frozen with recovery=none | closed externally after review | May 20, 2026, 02:58 UTC | [records/openclaw-openclaw/closed/84400.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/84400.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84392](https://github.com/openclaw/openclaw/pull/84392) | Fix node approval scope requests | closed externally after review | May 20, 2026, 02:58 UTC | [records/openclaw-openclaw/closed/84392.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/84392.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84149](https://github.com/openclaw/openclaw/pull/84149) | fix(session-lock): allow co-tenant writes during prompt I/O window | closed externally after review | May 20, 2026, 02:58 UTC | [records/openclaw-openclaw/closed/84149.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/84149.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84144](https://github.com/openclaw/openclaw/issues/84144) | [Bug]: openclaw nodes approve requires operator.admin — blocks automation after 2026.5.18 node surface gate | closed externally after review | May 20, 2026, 02:58 UTC | [records/openclaw-openclaw/closed/84144.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/84144.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84029](https://github.com/openclaw/openclaw/pull/84029) | fix(cli): validate --port in node run instead of silently falling back (#83923) | closed externally after review | May 20, 2026, 02:58 UTC | [records/openclaw-openclaw/closed/84029.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/84029.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83973](https://github.com/openclaw/openclaw/pull/83973) | fix(msteams): mark external system events as non-owner | closed externally after review | May 20, 2026, 02:58 UTC | [records/openclaw-openclaw/closed/83973.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/83973.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#82937](https://github.com/openclaw/openclaw/pull/82937) | fix: yield diagnostic event drains | closed externally after review | May 20, 2026, 02:58 UTC | [records/openclaw-openclaw/closed/82937.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/82937.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#82936](https://github.com/openclaw/openclaw/issues/82936) | [Bug]: Gateway liveness reports severe event-loop stalls under subagent load | closed externally after review | May 20, 2026, 02:58 UTC | [records/openclaw-openclaw/closed/82936.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/82936.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84251](https://github.com/openclaw/openclaw/pull/84251) | fix(node-pairing): require only operator.pairing scope for all node approvals | closed externally after review | May 20, 2026, 02:52 UTC | [records/openclaw-openclaw/closed/84251.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/84251.md) |
 
 <details>
 <summary>Recently Reviewed</summary>
 
 | Repository | Item | Title | Outcome | Status | Reviewed |
 | --- | --- | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83169](https://github.com/openclaw/openclaw/pull/83169) | Discord: add reaction notification wake policy | keep_open / kept_open | complete | May 20, 2026, 02:17 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84102](https://github.com/openclaw/openclaw/pull/84102) | fix #84079: normalize SendMessage/content/text aliases to message before send validation | keep_open / kept_open | complete | May 20, 2026, 02:16 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84371](https://github.com/openclaw/openclaw/pull/84371) | fix: directly deliver completed media fallback | keep_open / kept_open | complete | May 20, 2026, 02:15 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84396](https://github.com/openclaw/openclaw/pull/84396) | Avoid writing resolved API keys to models config | keep_open / kept_open | failed | May 20, 2026, 02:13 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83934](https://github.com/openclaw/openclaw/issues/83934) | 2026.5.19-beta.1 — gateway becomes unresponsive and silently respawns within ~2 minutes on a working v2026.... | keep_open / kept_open | complete | May 20, 2026, 02:12 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#81279](https://github.com/openclaw/openclaw/pull/81279) | ui(i18n): localize skills page grouping labels, status chips and missing prefixes for zh-CN | keep_open / kept_open | complete | May 20, 2026, 02:12 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84139](https://github.com/openclaw/openclaw/issues/84139) | [2026.5.18] Compaction safeguard causes duplicate messages on sessions_send interactions | keep_open / kept_open | complete | May 20, 2026, 02:12 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#40820](https://github.com/openclaw/openclaw/pull/40820) | feat(telegram): add /settings inline keyboard control panel | keep_open / kept_open | complete | May 20, 2026, 02:12 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83932](https://github.com/openclaw/openclaw/issues/83932) | Codex runtime compaction refresh lacks normal user-visible/logged notification parity | keep_open / kept_open | complete | May 20, 2026, 02:12 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83184](https://github.com/openclaw/openclaw/issues/83184) | [Bug]: Heartbeat-driven agent replies leave pendingFinalDelivery stuck, blocking subsequent heartbeats | keep_open / kept_open | complete | May 20, 2026, 02:12 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83871](https://github.com/openclaw/openclaw/issues/83871) | Surface whether a busy message was steered or queued as a follow-up | keep_open / kept_open | complete | May 20, 2026, 02:12 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#81333](https://github.com/openclaw/openclaw/pull/81333) | feat(i18n): translate Nodes page UI strings to Simplified Chinese | keep_open / kept_open | complete | May 20, 2026, 02:11 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84261](https://github.com/openclaw/openclaw/issues/84261) | [Bug]: Some messages are repeating.. not all.. | keep_open / kept_open | complete | May 20, 2026, 02:11 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#73570](https://github.com/openclaw/openclaw/pull/73570) | fix(hooks): bridge message_sending event to internal hook registry | keep_open / kept_open | complete | May 20, 2026, 02:11 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83744](https://github.com/openclaw/openclaw/issues/83744) | [Bug]: Discord progress failed state can persist across runs and suppress later final replies | keep_open / kept_open | complete | May 20, 2026, 02:11 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84385](https://github.com/openclaw/openclaw/pull/84385) | [codex] Fix macOS app copyright year | keep_open / kept_open | complete | May 20, 2026, 03:44 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#80255](https://github.com/openclaw/openclaw/pull/80255) | fix #79026: active-memory recall subagent can deadlock on the main lane inside before_prompt_build | keep_open / kept_open | complete | May 20, 2026, 03:43 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#169](https://github.com/openclaw/clawhub/issues/169) | clawhub update always reports 'local changes (no match)' even on freshly installed skills | keep_open / kept_open | complete | May 20, 2026, 03:41 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#76091](https://github.com/openclaw/openclaw/pull/76091) | Fix Discord reply typing lifecycle | keep_open / kept_open | complete | May 20, 2026, 03:39 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84403](https://github.com/openclaw/openclaw/pull/84403) | Fix stale Codex lastGood after explicit auth order relogin | keep_open / kept_open | complete | May 20, 2026, 03:26 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#82933](https://github.com/openclaw/openclaw/pull/82933) | fix: dedupe OpenAI strict schema downgrade diagnostics | keep_open / kept_open | complete | May 20, 2026, 03:26 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#56574](https://github.com/openclaw/openclaw/pull/56574) | fix(plugins): dedupe tool registration and preserve plugin tool config | keep_open / kept_open | complete | May 20, 2026, 03:23 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#56319](https://github.com/openclaw/openclaw/pull/56319) | fix: delete Telegram exec approval message after approval resolved | keep_open / kept_open | complete | May 20, 2026, 03:22 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83988](https://github.com/openclaw/openclaw/pull/83988) | fix(tts): defer text settlement for final-mode TTS to eliminate churn (#83511) | keep_open / kept_open | complete | May 20, 2026, 03:22 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84411](https://github.com/openclaw/openclaw/pull/84411) | fix(discord): keep forced voice consult diagnostics private | keep_open / kept_open | complete | May 20, 2026, 03:22 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84408](https://github.com/openclaw/openclaw/pull/84408) | [Fix] Keep node systemd tokens out of unit files | keep_open / kept_open | complete | May 20, 2026, 03:21 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84412](https://github.com/openclaw/openclaw/pull/84412) | fix(codex/command-account): respect explicit auth order over lastGood (#84386) | keep_open / kept_open | complete | May 20, 2026, 03:19 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#55893](https://github.com/openclaw/openclaw/pull/55893) | Fix/codex deactivated workspace failover | keep_open / kept_open | complete | May 20, 2026, 03:19 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#54275](https://github.com/openclaw/openclaw/pull/54275) | docs: replace stale docs:build script references | keep_open / kept_open | complete | May 20, 2026, 03:19 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84371](https://github.com/openclaw/openclaw/pull/84371) | fix: directly deliver completed media fallback | keep_open / kept_open | complete | May 20, 2026, 03:18 UTC |
 
 </details>
 
@@ -113,29 +113,32 @@ Last source update: May 20, 2026, 02:17 UTC
 
 ## Repair Dashboard
 
-Last source update: May 20, 2026, 01:53 UTC
+Last source update: May 20, 2026, 03:33 UTC
 
 State: Failed clusters need inspection
 
 | Metric | Count | Rate |
 | --- | ---: | ---: |
-| Latest clusters reviewed | 510 | 100% |
-| Run attempts archived | 948 | audit |
-| Latest successful clusters | 474 | 92.9% |
+| Latest clusters reviewed | 513 | 100% |
+| Run attempts archived | 951 | audit |
+| Latest successful clusters | 477 | 93.0% |
 | Latest failed clusters | 8 | 1.6% |
 | Latest cancelled clusters | 4 | 0.8% |
 | Needs-human clusters | 42 | 8.2% |
-| Fix actions failed | 41 | 9.6% |
-| Fix actions blocked | 112 | 26.1% |
+| Fix actions failed | 41 | 9.5% |
+| Fix actions blocked | 113 | 26.1% |
 | Completed close actions | 30 | 3.9% |
 | Completed merge actions | 23 | 3.0% |
-| Blocked mutation attempts | 444 | 58.0% |
-| Skipped mutation attempts | 268 | 35.0% |
+| Blocked mutation attempts | 446 | 58.1% |
+| Skipped mutation attempts | 268 | 34.9% |
 
 ### Clusters Needing Inspection
 
 | Cluster | State | Reason | Report | Run |
 | --- | --- | --- | --- | --- |
+| [automerge-openclaw-openclaw-78459](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-78459.md) | merge_canonical blocked | job does not allow merge | [automerge-openclaw-openclaw-78459](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-78459.md) | [26138597188](https://github.com/openclaw/clawsweeper/actions/runs/26138597188) |
+| [automerge-openclaw-openclaw-83477](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-83477.md) | merge_canonical blocked | job does not allow merge | [automerge-openclaw-openclaw-83477](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-83477.md) | [26138316851](https://github.com/openclaw/clawsweeper/actions/runs/26138316851) |
+| [automerge-openclaw-openclaw-82937](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-82937.md) | repair_contributor_branch blocked | source PR branch changed while the repair worker was preparing its push; requeue against the latest head | [automerge-openclaw-openclaw-82937](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-82937.md) | [26137352287](https://github.com/openclaw/clawsweeper/actions/runs/26137352287) |
 | [automerge-openclaw-openclaw-84254](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-84254.md) | merge_canonical blocked | job does not allow merge | [automerge-openclaw-openclaw-84254](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-84254.md) | [26135540897](https://github.com/openclaw/clawsweeper/actions/runs/26135540897) |
 | [automerge-openclaw-openclaw-84142](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-84142.md) | merge_canonical blocked | job does not allow merge | [automerge-openclaw-openclaw-84142](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-84142.md) | [26135546223](https://github.com/openclaw/clawsweeper/actions/runs/26135546223) |
 | [automerge-openclaw-openclaw-84371](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-84371.md) | repair_contributor_branch blocked | source PR #84371 is paused by clawsweeper:human-review; refusing to mutate the PR branch | [automerge-openclaw-openclaw-84371](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-84371.md) | [26135160060](https://github.com/openclaw/clawsweeper/actions/runs/26135160060) |
@@ -163,14 +166,12 @@ State: Failed clusters need inspection
 | [automerge-openclaw-openclaw-83766](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-83766.md) | repair_contributor_branch blocked | GitHub rejected the repair branch push because it updates workflow files and the ClawSweeper app token does not have workflows permission | [automerge-openclaw-openclaw-83766](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-83766.md) | [26069878607](https://github.com/openclaw/clawsweeper/actions/runs/26069878607) |
 | [automerge-openclaw-openclaw-83776](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-83776.md) | repair_contributor_branch blocked | GitHub rejected the repair branch push because it updates workflow files and the ClawSweeper app token does not have workflows permission | [automerge-openclaw-openclaw-83776](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-83776.md) | [26069575881](https://github.com/openclaw/clawsweeper/actions/runs/26069575881) |
 | [automerge-openclaw-openclaw-83785](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-83785.md) | repair_contributor_branch blocked | GitHub rejected the repair branch push because it updates workflow files and the ClawSweeper app token does not have workflows permission | [automerge-openclaw-openclaw-83785](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-83785.md) | [26068576821](https://github.com/openclaw/clawsweeper/actions/runs/26068576821) |
-| [automerge-openclaw-openclaw-83804](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-83804.md) | repair_contributor_branch blocked | GitHub rejected the repair branch push because it updates workflow files and the ClawSweeper app token does not have workflows permission | [automerge-openclaw-openclaw-83804](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-83804.md) | [26068141456](https://github.com/openclaw/clawsweeper/actions/runs/26068141456) |
-| [automerge-openclaw-openclaw-83800](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-83800.md) | repair_contributor_branch blocked | GitHub rejected the repair branch push because it updates workflow files and the ClawSweeper app token does not have workflows permission | [automerge-openclaw-openclaw-83800](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-83800.md) | [26068184060](https://github.com/openclaw/clawsweeper/actions/runs/26068184060) |
-| [automerge-openclaw-openclaw-83774](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-83774.md) | repair_contributor_branch blocked | source PR #83774 is paused by clawsweeper:human-review; refusing to mutate the PR branch | [automerge-openclaw-openclaw-83774](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-83774.md) | [26064388346](https://github.com/openclaw/clawsweeper/actions/runs/26064388346) |
 
 ### Fix Failure Queue
 
 | Cluster | Status | Target | Branch/PR | Reason | Run |
 | --- | --- | --- | --- | --- | --- |
+| [automerge-openclaw-openclaw-82937](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-82937.md) | blocked |  |  | source PR branch changed while the repair worker was preparing its push; requeue against the latest head | [26137352287](https://github.com/openclaw/clawsweeper/actions/runs/26137352287) |
 | [automerge-openclaw-openclaw-84371](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-84371.md) | blocked | [#84371](https://github.com/openclaw/openclaw/pull/84371) |  | source PR #84371 is paused by clawsweeper:human-review; refusing to mutate the PR branch | [26135160060](https://github.com/openclaw/clawsweeper/actions/runs/26135160060) |
 | [automerge-openclaw-openclaw-84269](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-84269.md) | blocked | [#84269](https://github.com/openclaw/openclaw/pull/84269) |  | GitHub rejected the repair branch push because it updates workflow files and the ClawSweeper app token does not have workflows permission | [26132498875](https://github.com/openclaw/clawsweeper/actions/runs/26132498875) |
 | [automerge-openclaw-openclaw-57835](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-57835.md) | blocked | [#57835](https://github.com/openclaw/openclaw/pull/57835) |  | GitHub rejected the repair branch push because it updates workflow files and the ClawSweeper app token does not have workflows permission | [26129307534](https://github.com/openclaw/clawsweeper/actions/runs/26129307534) |
@@ -195,13 +196,12 @@ State: Failed clusters need inspection
 | [automerge-openclaw-openclaw-83774](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-83774.md) | blocked | [#83774](https://github.com/openclaw/openclaw/pull/83774) |  | source PR #83774 is paused by clawsweeper:human-review; refusing to mutate the PR branch | [26064388346](https://github.com/openclaw/clawsweeper/actions/runs/26064388346) |
 | [automerge-openclaw-openclaw-83781](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-83781.md) | blocked | [#83781](https://github.com/openclaw/openclaw/pull/83781) |  | source PR #83781 is paused by clawsweeper:human-review; refusing to mutate the PR branch | [26063254627](https://github.com/openclaw/clawsweeper/actions/runs/26063254627) |
 | [automerge-openclaw-openclaw-83697](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-83697.md) | blocked | [#83697](https://github.com/openclaw/openclaw/pull/83697) |  | GitHub rejected the repair branch push because it updates workflow files and the ClawSweeper app token does not have workflows permission | [26052468757](https://github.com/openclaw/clawsweeper/actions/runs/26052468757) |
-| [automerge-openclaw-openclaw-83578](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-83578.md) | blocked | [#83578](https://github.com/openclaw/openclaw/pull/83578) |  | GitHub rejected the repair branch push because it updates workflow files and the ClawSweeper app token does not have workflows permission | [26050208956](https://github.com/openclaw/clawsweeper/actions/runs/26050208956) |
 
 ### Top Blocked Reasons
 
 | Reason | Latest count | Example cluster |
 | --- | ---: | --- |
-| job does not allow merge | 192 | [automerge-openclaw-openclaw-84254](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-84254.md) |
+| job does not allow merge | 194 | [automerge-openclaw-openclaw-78459](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/automerge-openclaw-openclaw-78459.md) |
 | action status is blocked | 89 | [ghcrawl-156636-autonomous-smoke](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/ghcrawl-156636-autonomous-smoke.md) |
 | close requires ClawSweeper Repair fix PR opened/pushed or merge executed first | 13 | [ghcrawl-156593-autonomous-smoke](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/ghcrawl-156593-autonomous-smoke.md) |
 | merge requires CLAWSWEEPER_REPAIR_ALLOW_MERGE=1; labeled for human review | 10 | [ghcrawl-156679-autonomous-smoke](https://github.com/openclaw/clawsweeper-state/blob/state/results/openclaw/ghcrawl-156679-autonomous-smoke.md) |
