@@ -4,18 +4,18 @@ Generated from the durable state branch for [openclaw/clawsweeper](https://githu
 
 ## Sweep Dashboard
 
-Last source update: May 20, 2026, 13:22 UTC
+Last source update: May 20, 2026, 13:24 UTC
 
 ### Fleet
 
 | Metric | Count |
 | --- | ---: |
 | Covered repositories | 3 |
-| Open review records | 7240 |
+| Open review records | 7241 |
 | Archived closed records | 24206 |
-| Fresh reviews, 7d | 7083 |
+| Fresh reviews, 7d | 7084 |
 | Proposed closes awaiting apply | 0 |
-| Work candidates awaiting promotion | 905 |
+| Work candidates awaiting promotion | 904 |
 | Failed or stale reviews | 2773 |
 
 ### Current Runs
@@ -30,7 +30,7 @@ Last source update: May 20, 2026, 13:22 UTC
 
 | Repository | Open records | Archived | Fresh | Proposed closes | Work candidates | Failed/stale | Last review | Last close |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 7117 | 23086 | 6960 | 0 | 894 | 2773 | May 20, 2026, 13:16 UTC | May 20, 2026, 13:17 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 7118 | 23086 | 6961 | 0 | 893 | 2773 | May 20, 2026, 13:24 UTC | May 20, 2026, 13:17 UTC |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | 123 | 1114 | 123 | 0 | 11 | 0 | May 20, 2026, 13:20 UTC | May 20, 2026, 05:55 UTC |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | 0 | 6 | 0 | 0 | 0 | 0 | unknown | May 6, 2026, 01:07 UTC |
 
@@ -84,21 +84,21 @@ Last source update: May 20, 2026, 13:22 UTC
 
 | Repository | Item | Title | Outcome | Status | Reviewed |
 | --- | --- | --- | --- | --- | --- |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#80726](https://github.com/openclaw/openclaw/pull/80726) | fix(telegram): resolve DM topic thread ids | keep_open / kept_open | complete | May 20, 2026, 13:24 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84578](https://github.com/openclaw/openclaw/pull/84578) | fix(whatsapp): deliver final error payloads so incomplete-turn errors reach users | keep_open / kept_open | complete | May 20, 2026, 13:23 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#82285](https://github.com/openclaw/openclaw/pull/82285) | feat(cli-output): tool-use injection + rolling-timer indicator for claude-stream-json backends | keep_open / kept_open | complete | May 20, 2026, 13:23 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84582](https://github.com/openclaw/openclaw/pull/84582) | fix(net): conditionalize proxyTls only for HTTPS proxies to fix Telegram plugin proxy issues | keep_open / kept_open | complete | May 20, 2026, 13:23 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84458](https://github.com/openclaw/openclaw/pull/84458) | fix(memory-wiki): bound compile page reads | keep_open / kept_open | complete | May 20, 2026, 13:22 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84559](https://github.com/openclaw/openclaw/pull/84559) | fix(browser): honor image sanitization config for screenshots | keep_open / kept_open | complete | May 20, 2026, 13:21 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84519](https://github.com/openclaw/openclaw/pull/84519) | fix(cli): gate exported subcli descriptors | keep_open / kept_open | complete | May 20, 2026, 13:20 UTC |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2344](https://github.com/openclaw/clawhub/pull/2344) | Separate financial capability tags from crypto | keep_open / kept_open | complete | May 20, 2026, 13:20 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84381](https://github.com/openclaw/openclaw/pull/84381) | fix(agent): abort accepted gateway runs on signal | keep_open / kept_open | complete | May 20, 2026, 13:16 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84250](https://github.com/openclaw/openclaw/pull/84250) | fix(agents): tolerate in-process session writes during prompt release | keep_open / kept_open | complete | May 20, 2026, 13:16 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#61483](https://github.com/openclaw/openclaw/pull/61483) | feat(android): add http.request node invoke command | keep_open / kept_open | complete | May 20, 2026, 13:14 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#80726](https://github.com/openclaw/openclaw/pull/80726) | fix(telegram): resolve DM topic thread ids | keep_open / kept_open | complete | May 20, 2026, 13:14 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84552](https://github.com/openclaw/openclaw/pull/84552) | fix(auth): allow openai-codex OAuth credentials for openai embedding lookups | keep_open / kept_open | complete | May 20, 2026, 13:13 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84494](https://github.com/openclaw/openclaw/pull/84494) | fix(codex): keep interrupted turns visible-answer eligible | keep_open / kept_open | complete | May 20, 2026, 13:13 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#69729](https://github.com/openclaw/openclaw/pull/69729) | fix(qwen): enable qwen3.6-plus on Coding Plan CN, correct reasoning flag | keep_open / kept_open | complete | May 20, 2026, 13:12 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#58993](https://github.com/openclaw/openclaw/pull/58993) | fix(googlechat): support spaceType field for DM vs Space detection | keep_open / kept_open | complete | May 20, 2026, 13:11 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84580](https://github.com/openclaw/openclaw/pull/84580) | fix(telegram): recognize bot_command entities as explicit mentions in mention gate | keep_open / kept_open | complete | May 20, 2026, 13:11 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#61624](https://github.com/openclaw/openclaw/pull/61624) | feat(whatsapp): add dmRequireMention for DM trigger gating | keep_open / kept_open | complete | May 20, 2026, 13:11 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#82285](https://github.com/openclaw/openclaw/pull/82285) | feat(cli-output): tool-use injection + rolling-timer indicator for claude-stream-json backends | keep_open / kept_open | complete | May 20, 2026, 13:10 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84573](https://github.com/openclaw/openclaw/pull/84573) | Allow trusted plugin session presentations | keep_open / kept_open | complete | May 20, 2026, 13:10 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84581](https://github.com/openclaw/openclaw/pull/84581) | fix(agents): strip plaintext model provider keys | keep_open / kept_open | complete | May 20, 2026, 13:10 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#84126](https://github.com/openclaw/openclaw/pull/84126) | fix(gateway): deliver internal source replies to TUI | keep_open / kept_open | complete | May 20, 2026, 13:10 UTC |
 
 </details>
 
