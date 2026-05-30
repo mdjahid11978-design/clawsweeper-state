@@ -4,42 +4,42 @@ Generated from the durable state branch for [openclaw/clawsweeper](https://githu
 
 ## Sweep Dashboard
 
-Last source update: May 30, 2026, 12:44 UTC
+Last source update: May 30, 2026, 13:13 UTC
 
 ### Fleet
 
 | Metric | Count |
 | --- | ---: |
 | Covered repositories | 3 |
-| Open review records | 3018 |
+| Open review records | 3024 |
 | Archived closed records | 784 |
-| Fresh reviews, 7d | 3018 |
+| Fresh reviews, 7d | 3024 |
 | Proposed closes awaiting apply | 38 |
-| Work candidates awaiting promotion | 375 |
+| Work candidates awaiting promotion | 377 |
 | Failed or stale reviews | 543 |
 
 ### Current Runs
 
 | Repository | State | Updated | Run |
 | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Review in progress | May 30, 2026, 12:40 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/26684041147) |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Review in progress | May 30, 2026, 12:07 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/26683400925) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Review in progress | May 30, 2026, 13:10 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/26684636470) |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Review in progress | May 30, 2026, 13:04 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/26684530056) |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | Review in progress | May 30, 2026, 07:38 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/26678275323) |
 
 ### Repositories
 
 | Repository | Open records | Archived | Fresh | Proposed closes | Work candidates | Failed/stale | Last review | Last close |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 2841 | 756 | 2841 | 38 | 357 | 542 | May 30, 2026, 12:44 UTC | May 30, 2026, 12:23 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 2846 | 756 | 2846 | 38 | 359 | 542 | May 30, 2026, 13:13 UTC | May 30, 2026, 12:23 UTC |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | 141 | 17 | 141 | 0 | 7 | 1 | May 30, 2026, 12:44 UTC | May 29, 2026, 20:04 UTC |
-| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | 36 | 11 | 36 | 0 | 11 | 0 | May 30, 2026, 12:18 UTC | May 29, 2026, 03:58 UTC |
+| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | 37 | 11 | 37 | 0 | 11 | 0 | May 30, 2026, 13:04 UTC | May 29, 2026, 03:58 UTC |
 
 ### Work Candidates
 
 | Repository | Item | Title | Priority | Reviewed | Report |
 | --- | --- | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#87141](https://github.com/openclaw/openclaw/pull/87141) | fix(plugin): harden schema and metadata fuzz boundaries | high | May 30, 2026, 12:44 UTC | [records/openclaw-openclaw/items/87141.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/87141.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75128](https://github.com/openclaw/openclaw/pull/75128) | fix(boot): wrap BOOT.md in internal-runtime-context, strip from message-tool args (#53732) | high | May 30, 2026, 12:42 UTC | [records/openclaw-openclaw/items/75128.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/75128.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#87141](https://github.com/openclaw/openclaw/pull/87141) | fix(plugin): harden schema and metadata fuzz boundaries | high | May 30, 2026, 13:01 UTC | [records/openclaw-openclaw/items/87141.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/87141.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88331](https://github.com/openclaw/openclaw/issues/88331) | Codex app-server no-tool turns can time out after reasoning before turn completion | high | May 30, 2026, 13:00 UTC | [records/openclaw-openclaw/items/88331.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/88331.md) |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | [#230](https://github.com/openclaw/clawsweeper/pull/230) | fix(repair): gate event re-review Complete on verdict marker freshness | high | May 30, 2026, 12:18 UTC | [records/openclaw-clawsweeper/items/230.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-clawsweeper/items/230.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88303](https://github.com/openclaw/openclaw/pull/88303) | Skip browser cleanup when browser is disabled | high | May 30, 2026, 11:19 UTC | [records/openclaw-openclaw/items/88303.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/88303.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88300](https://github.com/openclaw/openclaw/pull/88300) | fix(agents): strip leaked arg_value suffixes | high | May 30, 2026, 11:03 UTC | [records/openclaw-openclaw/items/88300.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/88300.md) |
@@ -84,21 +84,21 @@ Last source update: May 30, 2026, 12:44 UTC
 
 | Repository | Item | Title | Outcome | Status | Reviewed |
 | --- | --- | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#87904](https://github.com/openclaw/openclaw/pull/87904) | fix: route iMessage DM media through attachment handoff | keep_open / kept_open | complete | May 30, 2026, 12:44 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88328](https://github.com/openclaw/openclaw/pull/88328) | feat: add Skill Workshop proposals | keep_open / kept_open | complete | May 30, 2026, 12:44 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88320](https://github.com/openclaw/openclaw/pull/88320) | fix(agents): recover DeepSeek DSML tool calls | keep_open / kept_open | complete | May 30, 2026, 12:44 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2446](https://github.com/openclaw/clawhub/issues/2446) | Bug: GitHub account lookup failed — providerAccountId stored as username instead of numeric ID | keep_open / kept_open | complete | May 30, 2026, 12:44 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#87141](https://github.com/openclaw/openclaw/pull/87141) | fix(plugin): harden schema and metadata fuzz boundaries | keep_open / kept_open | complete | May 30, 2026, 12:44 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#87838](https://github.com/openclaw/openclaw/pull/87838) | test(agents): include Ollama in small live model matrix | keep_open / kept_open | complete | May 30, 2026, 12:42 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75128](https://github.com/openclaw/openclaw/pull/75128) | fix(boot): wrap BOOT.md in internal-runtime-context, strip from message-tool args (#53732) | keep_open / kept_open | complete | May 30, 2026, 12:42 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88319](https://github.com/openclaw/openclaw/pull/88319) | fix(agents): skip below-target CLI compaction failures | keep_open / kept_open | complete | May 30, 2026, 12:38 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88326](https://github.com/openclaw/openclaw/pull/88326) | perf(cli): reduce room-event Claude cache churn | keep_open / kept_open | complete | May 30, 2026, 12:36 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88321](https://github.com/openclaw/openclaw/pull/88321) | fix(codex): keep post-tool app-server turns alive | keep_open / kept_open | complete | May 30, 2026, 12:35 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88327](https://github.com/openclaw/openclaw/pull/88327) | fix(control-ui): respect chat history max chars config | keep_open / kept_open | complete | May 30, 2026, 12:31 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88311](https://github.com/openclaw/openclaw/pull/88311) | fix(windows): repair doctor update fallback migration | keep_open / kept_open | complete | May 30, 2026, 12:31 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#81008](https://github.com/openclaw/openclaw/pull/81008) | feat(memory-core): Memory Privacy Audit + Encrypted Backup | keep_open / kept_open | complete | May 30, 2026, 12:25 UTC |
-| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | [#230](https://github.com/openclaw/clawsweeper/pull/230) | fix(repair): gate event re-review Complete on verdict marker freshness | keep_open / kept_open | complete | May 30, 2026, 12:18 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88316](https://github.com/openclaw/openclaw/pull/88316) | fix: expose session status route channels | keep_open / kept_open | complete | May 30, 2026, 12:17 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88332](https://github.com/openclaw/openclaw/issues/88332) | [Bug]: Codex native tool statuses surface expected checks as channel-visible OpenClaw failures | keep_open / kept_open | complete | May 30, 2026, 13:13 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75128](https://github.com/openclaw/openclaw/pull/75128) | fix(boot): wrap BOOT.md in internal-runtime-context, strip from message-tool args (#53732) | keep_open / kept_open | complete | May 30, 2026, 13:11 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75165](https://github.com/openclaw/openclaw/pull/75165) | feat(agents): composable termination algebra + GSAR grounding scorer | keep_open / kept_open | complete | May 30, 2026, 13:08 UTC |
+| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | [#231](https://github.com/openclaw/clawsweeper/pull/231) | fix(sweep): inject referencing merged PRs into issue review context | keep_open / kept_open | complete | May 30, 2026, 13:04 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88327](https://github.com/openclaw/openclaw/pull/88327) | fix(control-ui): respect chat history max chars config | keep_open / kept_open | complete | May 30, 2026, 13:03 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#87141](https://github.com/openclaw/openclaw/pull/87141) | fix(plugin): harden schema and metadata fuzz boundaries | keep_open / kept_open | complete | May 30, 2026, 13:01 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88328](https://github.com/openclaw/openclaw/pull/88328) | feat: add Skill Workshop proposals and skill research | keep_open / kept_open | complete | May 30, 2026, 13:00 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88163](https://github.com/openclaw/openclaw/pull/88163) | fix(cli): harden Windows node pairing and approvals | keep_open / kept_open | complete | May 30, 2026, 13:00 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88331](https://github.com/openclaw/openclaw/issues/88331) | Codex app-server no-tool turns can time out after reasoning before turn completion | keep_open / kept_open | complete | May 30, 2026, 13:00 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83988](https://github.com/openclaw/openclaw/pull/83988) | fix(tts): defer text settlement for final-mode TTS to eliminate churn (#83511) | keep_open / kept_open | complete | May 30, 2026, 12:58 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88311](https://github.com/openclaw/openclaw/pull/88311) | fix(windows): repair doctor update fallback migration | keep_open / kept_open | complete | May 30, 2026, 12:58 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#87548](https://github.com/openclaw/openclaw/pull/87548) | feat(ui): render image blocks in tool output cards | keep_open / kept_open | complete | May 30, 2026, 12:57 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88330](https://github.com/openclaw/openclaw/issues/88330) | ws 8.21.0 breaks Discord gateway WebSocket under Node 22 | keep_open / kept_open | complete | May 30, 2026, 12:57 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88316](https://github.com/openclaw/openclaw/pull/88316) | fix: expose session status route channels | keep_open / kept_open | complete | May 30, 2026, 12:54 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88329](https://github.com/openclaw/openclaw/pull/88329) | fix: user-pinned model falls back to global chain on quota exhaustion | keep_open / kept_open | complete | May 30, 2026, 12:52 UTC |
 
 </details>
 
