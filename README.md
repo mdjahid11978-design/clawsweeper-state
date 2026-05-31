@@ -4,44 +4,44 @@ Generated from the durable state branch for [openclaw/clawsweeper](https://githu
 
 ## Sweep Dashboard
 
-Last source update: May 31, 2026, 18:42 UTC
+Last source update: May 31, 2026, 19:14 UTC
 
 ### Fleet
 
 | Metric | Count |
 | --- | ---: |
 | Covered repositories | 3 |
-| Open review records | 3591 |
-| Archived closed records | 1007 |
-| Fresh reviews, 7d | 3591 |
+| Open review records | 3586 |
+| Archived closed records | 1017 |
+| Fresh reviews, 7d | 3586 |
 | Proposed closes awaiting apply | 37 |
-| Work candidates awaiting promotion | 435 |
-| Failed or stale reviews | 780 |
+| Work candidates awaiting promotion | 438 |
+| Failed or stale reviews | 779 |
 
 ### Current Runs
 
 | Repository | State | Updated | Run |
 | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Review in progress | May 31, 2026, 18:30 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/26720879244) |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Review in progress | May 31, 2026, 18:18 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/26720595980) |
-| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | Review in progress | May 31, 2026, 04:05 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/26702799567) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Review in progress | May 31, 2026, 18:56 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/26721485870) |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Review in progress | May 31, 2026, 19:03 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/26721657389) |
+| [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | Planning review | May 31, 2026, 18:50 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/26721353023) |
 
 ### Repositories
 
 | Repository | Open records | Archived | Fresh | Proposed closes | Work candidates | Failed/stale | Last review | Last close |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 3397 | 974 | 3397 | 37 | 414 | 779 | May 31, 2026, 18:41 UTC | May 31, 2026, 18:39 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | 151 | 20 | 151 | 0 | 8 | 1 | May 31, 2026, 18:42 UTC | May 31, 2026, 02:28 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 3392 | 984 | 3392 | 37 | 417 | 778 | May 31, 2026, 19:14 UTC | May 31, 2026, 19:01 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | 151 | 20 | 151 | 0 | 8 | 1 | May 31, 2026, 19:13 UTC | May 31, 2026, 02:28 UTC |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | 43 | 13 | 43 | 0 | 13 | 0 | May 31, 2026, 17:15 UTC | May 30, 2026, 19:23 UTC |
 
 ### Work Candidates
 
 | Repository | Item | Title | Priority | Reviewed | Report |
 | --- | --- | --- | --- | --- | --- |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88584](https://github.com/openclaw/openclaw/pull/88584) | Surface ACP reconcile errors in startup logs | high | May 31, 2026, 19:08 UTC | [records/openclaw-openclaw/items/88584.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/88584.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88741](https://github.com/openclaw/openclaw/issues/88741) | Stream parser duplicates <think> content into both text and thinking parts (CoT leaks to chat channels with... | high | May 31, 2026, 18:40 UTC | [records/openclaw-openclaw/items/88741.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/88741.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88736](https://github.com/openclaw/openclaw/issues/88736) | Updater submits manual-update job via `launchctl submit` → KeepAlive defaults true → infinite update loop t... | high | May 31, 2026, 18:30 UTC | [records/openclaw-openclaw/items/88736.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/88736.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#83988](https://github.com/openclaw/openclaw/pull/83988) | fix(tts): defer text settlement for final-mode TTS to eliminate churn (#83511) | high | May 31, 2026, 18:16 UTC | [records/openclaw-openclaw/items/83988.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/83988.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#70990](https://github.com/openclaw/openclaw/pull/70990) | feat(plugins): add model failover and terminal failure hooks | high | May 31, 2026, 17:53 UTC | [records/openclaw-openclaw/items/70990.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/70990.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#81443](https://github.com/openclaw/openclaw/pull/81443) | fix: resolve QMD Windows shims and guard image URL downloads | high | May 31, 2026, 17:08 UTC | [records/openclaw-openclaw/items/81443.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/81443.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88709](https://github.com/openclaw/openclaw/pull/88709) | fix(auth): cooldown inline api key billing failures | high | May 31, 2026, 16:56 UTC | [records/openclaw-openclaw/items/88709.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/88709.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88703](https://github.com/openclaw/openclaw/issues/88703) | session file changed while embedded prompt lock was released | high | May 31, 2026, 16:39 UTC | [records/openclaw-openclaw/items/88703.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/88703.md) |
@@ -63,9 +63,14 @@ Last source update: May 31, 2026, 18:42 UTC
 
 | Repository | Item | Title | Reason | Closed | Report |
 | --- | --- | --- | --- | --- | --- |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88029](https://github.com/openclaw/openclaw/pull/88029) | fix(agents): atomic auth.json write to prevent credential lockout on crash | implemented_on_main | May 31, 2026, 19:01 UTC | [records/openclaw-openclaw/closed/88029.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/88029.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#85277](https://github.com/openclaw/openclaw/pull/85277) | fix(openai): avoid stale Responses message id replay | none | May 31, 2026, 18:59 UTC | [records/openclaw-openclaw/closed/85277.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/85277.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88749](https://github.com/openclaw/openclaw/pull/88749) | fix(channels): recover failed progress draft starts | none | May 31, 2026, 18:59 UTC | [records/openclaw-openclaw/closed/88749.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/88749.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88744](https://github.com/openclaw/openclaw/pull/88744) | refactor: extract ACP close session flow | none | May 31, 2026, 18:39 UTC | [records/openclaw-openclaw/closed/88744.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/88744.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77998](https://github.com/openclaw/openclaw/pull/77998) | fix(skills): clear workspaceVersions entry when skills watcher is disabled | none | May 31, 2026, 18:32 UTC | [records/openclaw-openclaw/closed/77998.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/77998.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#87522](https://github.com/openclaw/openclaw/pull/87522) | fix: force preflight compaction before oversized agent turns | none | May 31, 2026, 18:32 UTC | [records/openclaw-openclaw/closed/87522.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/87522.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88739](https://github.com/openclaw/openclaw/pull/88739) | refactor: extract ACP turn runner | none | May 31, 2026, 18:27 UTC | [records/openclaw-openclaw/closed/88739.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/88739.md) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88731](https://github.com/openclaw/openclaw/pull/88731) | refactor: migrate voice-call call logs through doctor | none | May 31, 2026, 18:20 UTC | [records/openclaw-openclaw/closed/88731.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/88731.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88733](https://github.com/openclaw/openclaw/pull/88733) | refactor: extract ACP runtime resume state | none | May 31, 2026, 18:16 UTC | [records/openclaw-openclaw/closed/88733.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/88733.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88314](https://github.com/openclaw/openclaw/pull/88314) | fix #76284: [Bug]: openclaw agents add blocked — cannot add Jon/Atlas as separate agents | none | May 31, 2026, 18:13 UTC | [records/openclaw-openclaw/closed/88314.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/88314.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88730](https://github.com/openclaw/openclaw/pull/88730) | fix(codex): stream final answer partials | none | May 31, 2026, 17:58 UTC | [records/openclaw-openclaw/closed/88730.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/88730.md) |
@@ -73,32 +78,27 @@ Last source update: May 31, 2026, 18:42 UTC
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#85931](https://github.com/openclaw/openclaw/pull/85931) | fix(memory): serialize qmd update writes across processes to stop SQLITE_BUSY | none | May 31, 2026, 17:54 UTC | [records/openclaw-openclaw/closed/85931.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/85931.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88724](https://github.com/openclaw/openclaw/pull/88724) | fix: persist ACP metadata in SQLite | none | May 31, 2026, 17:39 UTC | [records/openclaw-openclaw/closed/88724.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/88724.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88725](https://github.com/openclaw/openclaw/pull/88725) | refactor: extract ACP manager runtime handle cache | none | May 31, 2026, 17:38 UTC | [records/openclaw-openclaw/closed/88725.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/88725.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88721](https://github.com/openclaw/openclaw/pull/88721) | feat(plugin-sdk): add typed presentation command actions | none | May 31, 2026, 17:35 UTC | [records/openclaw-openclaw/closed/88721.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/88721.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88722](https://github.com/openclaw/openclaw/pull/88722) | refactor: make Telegram message cache SQLite-only | none | May 31, 2026, 17:25 UTC | [records/openclaw-openclaw/closed/88722.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/88722.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88719](https://github.com/openclaw/openclaw/pull/88719) | fix(auth): enforce canonical openai-codex OAuth owner | none | May 31, 2026, 17:24 UTC | [records/openclaw-openclaw/closed/88719.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/88719.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88720](https://github.com/openclaw/openclaw/pull/88720) | refactor: extract ACP translator session updates | none | May 31, 2026, 17:22 UTC | [records/openclaw-openclaw/closed/88720.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/88720.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88716](https://github.com/openclaw/openclaw/pull/88716) | docs: add contributing section | low_signal_unmergeable_pr | May 31, 2026, 17:08 UTC | [records/openclaw-openclaw/closed/88716.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/closed/88716.md) |
 
 <details>
 <summary>Recently Reviewed</summary>
 
 | Repository | Item | Title | Outcome | Status | Reviewed |
 | --- | --- | --- | --- | --- | --- |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2453](https://github.com/openclaw/clawhub/pull/2453) | Document public-corpus skill publishing boundary | keep_open / kept_open | complete | May 31, 2026, 18:42 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78441](https://github.com/openclaw/openclaw/pull/78441) | feat(subagents): forward toolsAllow from sessions_spawn | keep_open / kept_open | complete | May 31, 2026, 18:41 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88743](https://github.com/openclaw/openclaw/pull/88743) | docs(sms): add Twilio A2P delivery guidance | keep_open / kept_open | complete | May 31, 2026, 18:41 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88741](https://github.com/openclaw/openclaw/issues/88741) | Stream parser duplicates <think> content into both text and thinking parts (CoT leaks to chat channels with... | keep_open / kept_open | complete | May 31, 2026, 18:40 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88740](https://github.com/openclaw/openclaw/pull/88740) | fix(hooks): pass media metadata to internal message_received hook | keep_open / kept_open | complete | May 31, 2026, 18:40 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88726](https://github.com/openclaw/openclaw/pull/88726) | [codex] Read exact X posts via FxTwitter | keep_open / kept_open | complete | May 31, 2026, 18:39 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#87072](https://github.com/openclaw/openclaw/pull/87072) | feat(telegram): opt-in interleaved progress lane | keep_open / kept_open | complete | May 31, 2026, 18:38 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#87896](https://github.com/openclaw/openclaw/pull/87896) | fix(feishu): fallback when accepted turns send no visible reply | keep_open / kept_open | complete | May 31, 2026, 18:36 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88610](https://github.com/openclaw/openclaw/pull/88610) | fix: suppress raw provider errors in channel delivery | keep_open / kept_open | complete | May 31, 2026, 18:35 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88735](https://github.com/openclaw/openclaw/pull/88735) | fix(agents): harden runtime tool schema quarantine | keep_open / kept_open | complete | May 31, 2026, 18:35 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#59196](https://github.com/openclaw/openclaw/pull/59196) | feat(doctor): add disk space health check for state directory | keep_open / kept_open | complete | May 31, 2026, 18:34 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#71400](https://github.com/openclaw/openclaw/pull/71400) | feat(sessions): add adaptive reset mode with daily AND idle semantics | keep_open / kept_open | complete | May 31, 2026, 18:34 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88504](https://github.com/openclaw/openclaw/pull/88504) | feat(memory): add multi-slot memory role architecture | keep_open / kept_open | complete | May 31, 2026, 18:33 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88727](https://github.com/openclaw/openclaw/pull/88727) | fix(feishu): preserve long streaming replies | keep_open / kept_open | complete | May 31, 2026, 18:32 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#87522](https://github.com/openclaw/openclaw/pull/87522) | fix: force preflight compaction before oversized agent turns | keep_open / kept_open | complete | May 31, 2026, 18:31 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#87072](https://github.com/openclaw/openclaw/pull/87072) | feat(telegram): opt-in interleaved progress lane | keep_open / kept_open | complete | May 31, 2026, 19:14 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2460](https://github.com/openclaw/clawhub/pull/2460) | feat: expose ClawHub catalog feed lanes | keep_open / kept_open | complete | May 31, 2026, 19:13 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78441](https://github.com/openclaw/openclaw/pull/78441) | feat(subagents): forward toolsAllow from sessions_spawn | keep_open / kept_open | complete | May 31, 2026, 19:13 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88630](https://github.com/openclaw/openclaw/pull/88630) | fix(codex): avoid guardian review for local models | keep_open / kept_open | complete | May 31, 2026, 19:13 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#71399](https://github.com/openclaw/openclaw/pull/71399) | feat(hooks): add agent:turn:end internal hook event | keep_open / kept_open | complete | May 31, 2026, 19:13 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#87825](https://github.com/openclaw/openclaw/pull/87825) | feat(feeds): install approved feed entries | keep_open / kept_open | complete | May 31, 2026, 19:12 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2453](https://github.com/openclaw/clawhub/pull/2453) | Document public-corpus skill publishing boundary | keep_open / kept_open | complete | May 31, 2026, 19:11 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88748](https://github.com/openclaw/openclaw/pull/88748) | fix(gemini): bridge OAuth profiles into CLI runtime | keep_open / kept_open | complete | May 31, 2026, 19:08 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88584](https://github.com/openclaw/openclaw/pull/88584) | Surface ACP reconcile errors in startup logs | keep_open / kept_open | complete | May 31, 2026, 19:08 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88649](https://github.com/openclaw/openclaw/pull/88649) | test(agents): use neutral tool schema fixtures | keep_open / kept_open | complete | May 31, 2026, 19:08 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#79879](https://github.com/openclaw/openclaw/pull/79879) | docs: clarify plugin load failure diagnostics | keep_open / kept_open | complete | May 31, 2026, 19:02 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88746](https://github.com/openclaw/openclaw/pull/88746) | feat: add Agent OS full-local substrate | keep_open / kept_open | complete | May 31, 2026, 19:02 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88745](https://github.com/openclaw/openclaw/pull/88745) | fix: preserve explicit provider in resolveConfiguredProviderFallback (v2) | keep_open / kept_open | complete | May 31, 2026, 18:59 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#79149](https://github.com/openclaw/openclaw/pull/79149) | fix(ci): guard workflow template injection | keep_open / kept_open | complete | May 31, 2026, 18:56 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#87838](https://github.com/openclaw/openclaw/pull/87838) | test(agents): include Ollama in small live model matrix | keep_open / kept_open | complete | May 31, 2026, 18:56 UTC |
 
 </details>
 
