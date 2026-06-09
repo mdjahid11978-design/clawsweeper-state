@@ -4,33 +4,33 @@ Generated from the durable state branch for [openclaw/clawsweeper](https://githu
 
 ## Sweep Dashboard
 
-Last source update: Jun 9, 2026, 21:33 UTC
+Last source update: Jun 9, 2026, 22:14 UTC
 
 ### Fleet
 
 | Metric | Count |
 | --- | ---: |
 | Covered repositories | 3 |
-| Open review records | 7922 |
+| Open review records | 7924 |
 | Archived closed records | 1824 |
-| Fresh reviews, 7d | 3833 |
+| Fresh reviews, 7d | 3829 |
 | Proposed closes awaiting apply | 47 |
-| Work candidates awaiting promotion | 366 |
+| Work candidates awaiting promotion | 368 |
 | Failed or stale reviews | 2224 |
 
 ### Current Runs
 
 | Repository | State | Updated | Run |
 | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Review in progress | Jun 9, 2026, 21:31 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/27237107621) |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Review in progress | Jun 9, 2026, 21:22 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/27236639491) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Review in progress | Jun 9, 2026, 21:55 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/27238364894) |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Review in progress | Jun 9, 2026, 21:58 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/27238530707) |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | Review in progress | Jun 9, 2026, 18:29 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/27227183345) |
 
 ### Repositories
 
 | Repository | Open records | Archived | Fresh | Proposed closes | Work candidates | Failed/stale | Last review | Last close |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 7636 | 1743 | 3673 | 47 | 351 | 2202 | Jun 9, 2026, 21:33 UTC | Jun 9, 2026, 20:48 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 7638 | 1743 | 3669 | 47 | 353 | 2202 | Jun 9, 2026, 22:14 UTC | Jun 9, 2026, 20:48 UTC |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | 217 | 61 | 141 | 0 | 12 | 22 | Jun 9, 2026, 18:31 UTC | Jun 9, 2026, 03:32 UTC |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | 69 | 20 | 19 | 0 | 3 | 0 | Jun 9, 2026, 10:30 UTC | Jun 5, 2026, 21:38 UTC |
 
@@ -38,6 +38,7 @@ Last source update: Jun 9, 2026, 21:33 UTC
 
 | Repository | Item | Title | Priority | Reviewed | Report |
 | --- | --- | --- | --- | --- | --- |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#91772](https://github.com/openclaw/openclaw/issues/91772) | plugins install fails with npm EOVERRIDE: shipped pnpm-workspace.yaml overrides conflict with stale managed... | high | Jun 9, 2026, 21:53 UTC | [records/openclaw-openclaw/items/91772.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/91772.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#91767](https://github.com/openclaw/openclaw/pull/91767) | Fix one-shot Codex app-server teardown | high | Jun 9, 2026, 21:26 UTC | [records/openclaw-openclaw/items/91767.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/91767.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#91747](https://github.com/openclaw/openclaw/pull/91747) | fix(browser): validate discovered CDP websocket URLs | high | Jun 9, 2026, 21:22 UTC | [records/openclaw-openclaw/items/91747.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/91747.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#91770](https://github.com/openclaw/openclaw/pull/91770) | fix(memory): abort search embeddings on tool timeout | high | Jun 9, 2026, 21:16 UTC | [records/openclaw-openclaw/items/91770.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/91770.md) |
@@ -57,7 +58,6 @@ Last source update: Jun 9, 2026, 21:33 UTC
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | [#270](https://github.com/openclaw/clawsweeper/issues/270) | Scheduled close-apply workflow fails after state hydration dirties worktree | high | Jun 9, 2026, 09:45 UTC | [records/openclaw-clawsweeper/items/270.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-clawsweeper/items/270.md) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#91669](https://github.com/openclaw/openclaw/issues/91669) | Feishu channel dispatch completes with replies=0 even though assistant final text is written to session tra... | high | Jun 9, 2026, 09:15 UTC | [records/openclaw-openclaw/items/91669.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/91669.md) |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2535](https://github.com/openclaw/clawhub/pull/2535) | Update install telemetry and ranking signals | high | Jun 9, 2026, 07:11 UTC | [records/openclaw-clawhub/items/2535.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-clawhub/items/2535.md) |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#54724](https://github.com/openclaw/openclaw/pull/54724) | fix/agents-primary-model-selection-and-catalog-loading-41344 | high | Jun 9, 2026, 05:26 UTC | [records/openclaw-openclaw/items/54724.md](https://github.com/openclaw/clawsweeper-state/blob/state/records/openclaw-openclaw/items/54724.md) |
 
 ### Recently Closed
 
@@ -84,7 +84,12 @@ Last source update: Jun 9, 2026, 21:33 UTC
 
 | Repository | Item | Title | Outcome | Status | Reviewed |
 | --- | --- | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#91722](https://github.com/openclaw/openclaw/pull/91722) | Refactor HTTP egress around external proxy enforcement | keep_open / kept_open | complete | Jun 9, 2026, 21:33 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#89045](https://github.com/openclaw/openclaw/pull/89045) | fix: recover terminal session status on visible inbound turns | keep_open / kept_open | complete | Jun 9, 2026, 22:14 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#91722](https://github.com/openclaw/openclaw/pull/91722) | Refactor HTTP egress around external proxy enforcement | keep_open / kept_open | complete | Jun 9, 2026, 21:57 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#91772](https://github.com/openclaw/openclaw/issues/91772) | plugins install fails with npm EOVERRIDE: shipped pnpm-workspace.yaml overrides conflict with stale managed... | keep_open / kept_open | complete | Jun 9, 2026, 21:53 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#91771](https://github.com/openclaw/openclaw/pull/91771) | fix(cron): report canonical SQLite path in cron status (fixes #91766) | keep_open / kept_open | complete | Jun 9, 2026, 21:46 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#80453](https://github.com/openclaw/openclaw/pull/80453) | fix(env): propagate service-managed GH_TOKEN to trusted exec | keep_open / kept_open | complete | Jun 9, 2026, 21:38 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#79982](https://github.com/openclaw/openclaw/pull/79982) | feat(tools): introduce group:core for all built-in core tools | keep_open / kept_open | complete | Jun 9, 2026, 21:36 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#91767](https://github.com/openclaw/openclaw/pull/91767) | Fix one-shot Codex app-server teardown | keep_open / kept_open | complete | Jun 9, 2026, 21:26 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#91747](https://github.com/openclaw/openclaw/pull/91747) | fix(browser): validate discovered CDP websocket URLs | keep_open / kept_open | complete | Jun 9, 2026, 21:22 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#91768](https://github.com/openclaw/openclaw/pull/91768) | fix(ios): respect chat header safe area | keep_open / kept_open | complete | Jun 9, 2026, 21:22 UTC |
@@ -94,11 +99,6 @@ Last source update: Jun 9, 2026, 21:33 UTC
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#91751](https://github.com/openclaw/openclaw/pull/91751) | fix(mcp): harden stdio env filtering | keep_open / kept_open | complete | Jun 9, 2026, 21:04 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#91766](https://github.com/openclaw/openclaw/issues/91766) | [Bug]: openclaw cron status reports legacy storePath | keep_open / kept_open | complete | Jun 9, 2026, 21:01 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#90946](https://github.com/openclaw/openclaw/pull/90946) | fix(infra): preserve inherited gateway PID across reparent during cleanup | keep_open / kept_open | complete | Jun 9, 2026, 20:59 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#89517](https://github.com/openclaw/openclaw/pull/89517) | [codex] fix gateway hot-mode restart reloads | keep_open / kept_open | failed | Jun 9, 2026, 20:53 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#91750](https://github.com/openclaw/openclaw/pull/91750) | fix(search): enforce native web search tool policy | keep_open / kept_open | complete | Jun 9, 2026, 20:52 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#91765](https://github.com/openclaw/openclaw/pull/91765) | Clarify env-var executable behavior reports in SECURITY.md | keep_open / kept_open | complete | Jun 9, 2026, 20:50 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#89526](https://github.com/openclaw/openclaw/pull/89526) | [codex] fix gateway restart-required reload drift | keep_open / kept_open | complete | Jun 9, 2026, 20:44 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#85316](https://github.com/openclaw/openclaw/pull/85316) | fix(auth): keep alias-compatible auth-profile overrides instead of clearing them | close / skipped_invalid_decision | complete | Jun 9, 2026, 20:43 UTC |
 
 </details>
 
