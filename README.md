@@ -4,34 +4,34 @@ Generated from the durable state branch for [openclaw/clawsweeper](https://githu
 
 ## Sweep Dashboard
 
-Last source update: Jun 11, 2026, 19:23 UTC
+Last source update: Jun 11, 2026, 19:38 UTC
 
 ### Fleet
 
 | Metric | Count |
 | --- | ---: |
 | Covered repositories | 3 |
-| Open review records | 6313 |
+| Open review records | 6314 |
 | Archived closed records | 4239 |
 | Fresh reviews, 7d | 3184 |
 | Proposed closes awaiting apply | 89 |
 | Work candidates awaiting promotion | 206 |
-| Failed or stale reviews | 2237 |
+| Failed or stale reviews | 2239 |
 
 ### Current Runs
 
 | Repository | State | Updated | Run |
 | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Review publish complete | Jun 11, 2026, 19:22 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/27371386133) |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Review comments checked | Jun 11, 2026, 19:23 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/27371457395) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Review publish complete | Jun 11, 2026, 19:37 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/27372145127) |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Hot intake publish complete | Jun 11, 2026, 19:38 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/27372179031) |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | Audit finished | Jun 11, 2026, 19:15 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/27371333028) |
 
 ### Repositories
 
 | Repository | Open records | Archived | Fresh | Proposed closes | Work candidates | Failed/stale | Last review | Last close |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 6172 | 3988 | 3059 | 86 | 202 | 2194 | Jun 11, 2026, 19:21 UTC | Jun 11, 2026, 18:55 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | 117 | 180 | 112 | 3 | 2 | 41 | Jun 11, 2026, 19:21 UTC | Jun 11, 2026, 17:47 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 6173 | 3988 | 3059 | 86 | 202 | 2198 | Jun 11, 2026, 19:36 UTC | Jun 11, 2026, 18:55 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | 117 | 180 | 112 | 3 | 2 | 39 | Jun 11, 2026, 19:37 UTC | Jun 11, 2026, 17:47 UTC |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | 24 | 71 | 13 | 0 | 2 | 2 | Jun 11, 2026, 17:21 UTC | Jun 11, 2026, 19:15 UTC |
 
 ### Work Candidates
@@ -84,21 +84,21 @@ Last source update: Jun 11, 2026, 19:23 UTC
 
 | Repository | Item | Title | Outcome | Status | Reviewed |
 | --- | --- | --- | --- | --- | --- |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#905](https://github.com/openclaw/clawhub/issues/905) | Feature request: allow owners to hide or delete a single published version without deleting the whole skill | keep_open / kept_open | failed | Jun 11, 2026, 19:21 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#8176](https://github.com/openclaw/openclaw/issues/8176) | Allow before_agent_start hooks to override prompt | keep_open / kept_open | failed | Jun 11, 2026, 19:21 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75](https://github.com/openclaw/openclaw/issues/75) | Linux/Windows Clawdbot Apps | keep_open / kept_open | failed | Jun 11, 2026, 19:21 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#39659](https://github.com/openclaw/openclaw/issues/39659) | [Feature]: First-class multi-instance management for Docker installs | keep_open / kept_open | failed | Jun 11, 2026, 19:21 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#90445](https://github.com/openclaw/openclaw/issues/90445) | Control Panel: Add tooltips/clarifying labels for Reasoning and Thinking dropdowns (Config↔UI naming collis... | keep_open / kept_open | failed | Jun 11, 2026, 19:21 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#1992](https://github.com/openclaw/clawhub/issues/1992) | Couldn't go live | keep_open / kept_open | failed | Jun 11, 2026, 19:21 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#8285](https://github.com/openclaw/openclaw/issues/8285) | Feature request: Auto-send intent/acknowledgment text message before agent processing | keep_open / kept_open | failed | Jun 11, 2026, 19:21 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#7524](https://github.com/openclaw/openclaw/issues/7524) | Feature: groupScope option to consolidate group sessions into main | keep_open / kept_open | failed | Jun 11, 2026, 19:21 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#1153](https://github.com/openclaw/clawhub/issues/1153) | Request to hard-delete all versions of JasonStarlight/phosor-ai | keep_open / kept_open | failed | Jun 11, 2026, 19:20 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#1744](https://github.com/openclaw/clawhub/issues/1744) | Request: delete stale plugin entries claw-pay-plugin (v0.27, v0.25) from Publisher Plugins | keep_open / kept_open | failed | Jun 11, 2026, 19:20 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#1310](https://github.com/openclaw/clawhub/issues/1310) | [Data] Quality signals for ClawHub Skills — we analyzed the top 50 and found trust gaps | keep_open / kept_open | failed | Jun 11, 2026, 19:20 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2586](https://github.com/openclaw/clawhub/pull/2586) | Show unfiltered browse totals | keep_open / kept_open | failed | Jun 11, 2026, 19:20 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#7456](https://github.com/openclaw/openclaw/issues/7456) | [Feature]: Add "go back" navigation during onboarding wizard | keep_open / kept_open | failed | Jun 11, 2026, 19:20 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#39685](https://github.com/openclaw/openclaw/issues/39685) | [Feature]: Network Access Control (allowedDomains / denyDomains) — Egress Firewall | keep_open / kept_open | failed | Jun 11, 2026, 19:20 UTC |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2216](https://github.com/openclaw/clawhub/issues/2216) | RFC: Period-based popularity for publishers, skills, and plugins | keep_open / kept_open | failed | Jun 11, 2026, 19:20 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#1994](https://github.com/openclaw/clawhub/issues/1994) | Trying to get Plugin verified | keep_open / kept_open | failed | Jun 11, 2026, 19:37 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2571](https://github.com/openclaw/clawhub/pull/2571) | feat: expose skill description setup metadata | keep_open / kept_open | failed | Jun 11, 2026, 19:36 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#92253](https://github.com/openclaw/openclaw/pull/92253) | [codex] active-memory default to configured agents | keep_open / kept_open | complete | Jun 11, 2026, 19:36 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#88815](https://github.com/openclaw/openclaw/pull/88815) | feat: channel echo / session pinning | keep_open / kept_open | failed | Jun 11, 2026, 19:36 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2586](https://github.com/openclaw/clawhub/pull/2586) | Show unfiltered browse totals | keep_open / kept_open | complete | Jun 11, 2026, 19:36 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#92238](https://github.com/openclaw/openclaw/issues/92238) | [Bug]: Isolated cron job with OpenAI/Codex-backed model path reports `exec tool unavailable`. `sandbox expl... | keep_open / kept_open | failed | Jun 11, 2026, 19:36 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2434](https://github.com/openclaw/clawhub/pull/2434) | feat(cli): polish terminal branding | keep_open / kept_open | complete | Jun 11, 2026, 19:36 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#89045](https://github.com/openclaw/openclaw/pull/89045) | fix: recover terminal session status on visible inbound turns | keep_open / kept_open | failed | Jun 11, 2026, 19:36 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#90398](https://github.com/openclaw/openclaw/issues/90398) | [Bug]: Teams streaming delivers normal-length replies twice in 2026.5.28 | keep_open / kept_open | failed | Jun 11, 2026, 19:35 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#92129](https://github.com/openclaw/openclaw/issues/92129) | [Bug]: Telegram isolated ingress deletes spooled updates when the turn fails — errors are swallowed so hand... | keep_open / kept_open | failed | Jun 11, 2026, 19:35 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2411](https://github.com/openclaw/clawhub/pull/2411) | feat: add plugin verify evidence endpoint | keep_open / kept_open | failed | Jun 11, 2026, 19:35 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#85664](https://github.com/openclaw/openclaw/pull/85664) | feat(gateway): wire read coding tool into HTTP /tools/invoke (narrow) | keep_open / kept_open | failed | Jun 11, 2026, 19:35 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#39604](https://github.com/openclaw/openclaw/issues/39604) | [Feature]: Add tools.web.fetch.allowPrivateNetwork to allow private network access | keep_open / kept_open | failed | Jun 11, 2026, 19:35 UTC |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | [#2452](https://github.com/openclaw/clawhub/pull/2452) | Add profile link to avatar menu | keep_open / kept_open | failed | Jun 11, 2026, 19:35 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#92197](https://github.com/openclaw/openclaw/issues/92197) | [Feature]: feat(subagents): Make subagent completion wake-up delivery configurable (currently hardcoded to... | keep_open / kept_open | failed | Jun 11, 2026, 19:34 UTC |
 
 </details>
 
