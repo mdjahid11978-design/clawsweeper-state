@@ -4,7 +4,7 @@ Generated from the durable state branch for [openclaw/clawsweeper](https://githu
 
 ## Sweep Dashboard
 
-Last source update: Jun 18, 2026, 01:33 UTC
+Last source update: Jun 18, 2026, 01:45 UTC
 
 ### Fleet
 
@@ -14,23 +14,23 @@ Last source update: Jun 18, 2026, 01:33 UTC
 | Open review records | 6254 |
 | Archived closed records | 7684 |
 | Fresh reviews, 7d | 6240 |
-| Proposed closes awaiting apply | 8 |
-| Work candidates awaiting promotion | 464 |
-| Failed or stale reviews | 183 |
+| Proposed closes awaiting apply | 9 |
+| Work candidates awaiting promotion | 463 |
+| Failed or stale reviews | 179 |
 
 ### Current Runs
 
 | Repository | State | Updated | Run |
 | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Hot intake publish complete | Jun 18, 2026, 01:33 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/27730080588) |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Review in progress | Jun 18, 2026, 01:30 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/27730762122) |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Review comments checked | Jun 18, 2026, 01:44 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/27730919091) |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Hot intake publish complete | Jun 18, 2026, 01:45 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/27730775536) |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | Audit finished | Jun 18, 2026, 01:27 UTC | [run](https://github.com/openclaw/clawsweeper/actions/runs/27730668171) |
 
 ### Repositories
 
 | Repository | Open records | Archived | Fresh | Proposed closes | Work candidates | Failed/stale | Last review | Last close |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 6189 | 7246 | 6177 | 7 | 463 | 182 | Jun 18, 2026, 01:32 UTC | Jun 18, 2026, 01:18 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 6189 | 7246 | 6177 | 8 | 462 | 178 | Jun 18, 2026, 01:45 UTC | Jun 18, 2026, 01:18 UTC |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | 61 | 317 | 59 | 1 | 1 | 0 | Jun 18, 2026, 01:19 UTC | Jun 18, 2026, 01:25 UTC |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | 4 | 121 | 4 | 0 | 0 | 1 | Jun 17, 2026, 07:15 UTC | Jun 18, 2026, 01:27 UTC |
 
@@ -84,9 +84,13 @@ Last source update: Jun 18, 2026, 01:33 UTC
 
 | Repository | Item | Title | Outcome | Status | Reviewed |
 | --- | --- | --- | --- | --- | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77025](https://github.com/openclaw/openclaw/issues/77025) | [Feature]: session-level chat mode for lower-cost lightweight conversations | keep_open / kept_open | failed | Jun 18, 2026, 01:32 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#94335](https://github.com/openclaw/openclaw/pull/94335) | fix(subagent): reconcile child output before lost-context sweep | keep_open / kept_open | failed | Jun 18, 2026, 01:32 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75403](https://github.com/openclaw/openclaw/pull/75403) | fix: making typing start fire-and-forget allows cleanup/idle to run before a persistent typin... | keep_open / kept_open | failed | Jun 18, 2026, 01:32 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#94257](https://github.com/openclaw/openclaw/pull/94257) | fix(sessions): preserve Media* index alignment when reading user-turn fields | keep_open / kept_open | complete | Jun 18, 2026, 01:45 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#94335](https://github.com/openclaw/openclaw/pull/94335) | fix(subagent): reconcile child output before lost-context sweep | close / proposed_close | complete | Jun 18, 2026, 01:41 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#75403](https://github.com/openclaw/openclaw/pull/75403) | fix: making typing start fire-and-forget allows cleanup/idle to run before a persistent typin... | keep_open / kept_open | complete | Jun 18, 2026, 01:41 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#77025](https://github.com/openclaw/openclaw/issues/77025) | [Feature]: session-level chat mode for lower-cost lightweight conversations | keep_open / kept_open | complete | Jun 18, 2026, 01:40 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#89040](https://github.com/openclaw/openclaw/pull/89040) | perf: avoid event-loop stall during embedded_run bootstrap-context | keep_open / kept_open | complete | Jun 18, 2026, 01:37 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#93944](https://github.com/openclaw/openclaw/pull/93944) | fix(cron): emit exhausted-unavailable-tool failure signal to suppress self-debug delivery (fixes #92535) | keep_open / kept_open | complete | Jun 18, 2026, 01:35 UTC |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#94093](https://github.com/openclaw/openclaw/pull/94093) | Prevent Codex thread rotation from losing next-step context | keep_open / kept_open | failed | Jun 18, 2026, 01:34 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#85651](https://github.com/openclaw/openclaw/pull/85651) | feat(continuation): context-pressure-aware continuation (continue_work / continue_delegate / request_compac... | keep_open / kept_open | complete | Jun 18, 2026, 01:31 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#94251](https://github.com/openclaw/openclaw/issues/94251) | [Bug]: Ollama remote provider streaming not consumed — model_call:started never progresses in chat sessions | keep_open / kept_open | complete | Jun 18, 2026, 01:31 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#93627](https://github.com/openclaw/openclaw/pull/93627) | fix(dreaming): filter already-emitted entries in light phase to prevent verbatim repeats (fixes #72096) | keep_open / kept_open | complete | Jun 18, 2026, 01:30 UTC |
@@ -95,10 +99,6 @@ Last source update: Jun 18, 2026, 01:33 UTC
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#94320](https://github.com/openclaw/openclaw/pull/94320) | feat(discord): drain pending deliveries on gateway reconnect | keep_open / kept_open | complete | Jun 18, 2026, 01:26 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#91506](https://github.com/openclaw/openclaw/pull/91506) | Preserve shared QA suite flags across runners | keep_open / kept_open | complete | Jun 18, 2026, 01:26 UTC |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78303](https://github.com/openclaw/openclaw/pull/78303) | feat(mcp): channel-mediated approval for MCP tool calls (consent envelope) | keep_open / kept_open | complete | Jun 18, 2026, 01:25 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#94328](https://github.com/openclaw/openclaw/pull/94328) | fix(agents): keep post-compaction user re-issue of a kept-tail prompt during compaction rotation | close / skipped_invalid_decision | complete | Jun 18, 2026, 01:23 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#78459](https://github.com/openclaw/openclaw/pull/78459) | fix(commitments): stop hardcoding fastMode in extraction (#78451) | keep_open / kept_open | complete | Jun 18, 2026, 01:23 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#76492](https://github.com/openclaw/openclaw/issues/76492) | `openclaw agent` CLI silently falls back to embedded mode, masking gateway behavior in diagnostic probes | keep_open / kept_open | complete | Jun 18, 2026, 01:23 UTC |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | [#25592](https://github.com/openclaw/openclaw/issues/25592) | Text between tool calls leaks to messaging channels | keep_open / kept_open | complete | Jun 18, 2026, 01:22 UTC |
 
 </details>
 
@@ -106,7 +106,7 @@ Last source update: Jun 18, 2026, 01:33 UTC
 
 | Repository | Status | Last audit | Missing eligible | Stale records | Protected proposed | Scan complete |
 | --- | --- | --- | ---: | ---: | ---: | --- |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | missing records | Jun 18, 2026, 01:25 UTC | 54 | 0 | 0 | yes |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | missing records | Jun 18, 2026, 01:39 UTC | 55 | 0 | 0 | yes |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | clean | Jun 18, 2026, 01:25 UTC | 0 | 0 | 0 | yes |
 | [openclaw/clawsweeper](https://github.com/openclaw/clawsweeper) | clean | Jun 18, 2026, 01:27 UTC | 0 | 0 | 0 | yes |
 
